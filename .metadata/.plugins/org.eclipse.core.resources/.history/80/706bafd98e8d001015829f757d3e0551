@@ -1,0 +1,46 @@
+// Test301
+
+program test301
+
+const int nula = 0;
+const int jedan = 1;
+const int pet = 5;
+
+int niz[];
+char nizch[];
+
+int a;
+
+set s1, s2, s3;
+	
+{
+	void main()	
+		int bodovi;
+		int temp;
+	{
+		
+	}
+	
+	bool f4(int x, bool r){ return true;}
+	int f1(int x) { return x; }
+	int f6(bool x) { return 1; }
+	int f2(int x, bool b, int c) { return 1; }
+	int f5(int a, int b, int c, bool d) { return 1;} 
+	
+	int f3() set s1, s2; int a, b[];{ 
+		//f4(1, 3, 4, true);
+		f2(f2(1, true, 2) , true,  f2(1, true, 4));
+		add(s1, 2);
+		//s1 = s1 union s2;
+		//f4(f2(1, true), true);
+		//f5(1, 2, 3, true);
+		//f2(f2(1, true), true);
+		//f2(1, true);
+		//f1(1);
+		//print(s1, 3);
+		//a = f6 map b;
+		return 1;
+	}
+}
+
+

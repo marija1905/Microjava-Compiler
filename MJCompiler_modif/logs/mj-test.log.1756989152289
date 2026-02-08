@@ -1,0 +1,97 @@
+INFO  14:31:29,810 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  14:31:29,843 - #2 program
+INFO  14:31:29,843 - #41 Keske
+INFO  14:31:29,843 - #5 const
+INFO  14:31:29,844 - #41 int
+INFO  14:31:29,844 - #41 pi
+INFO  14:31:29,845 - #6 =
+INFO  14:31:29,845 - #43 3
+INFO  14:31:29,845 - #8 ;
+INFO  14:31:29,846 - #5 const
+INFO  14:31:29,847 - #41 int
+INFO  14:31:29,847 - #41 g
+INFO  14:31:29,847 - #6 =
+INFO  14:31:29,847 - #43 10
+INFO  14:31:29,847 - #8 ;
+INFO  14:31:29,847 - #41 char
+INFO  14:31:29,847 - #41 x
+INFO  14:31:29,847 - #8 ;
+INFO  14:31:29,848 - #3 {
+INFO  14:31:29,849 - #11 void
+INFO  14:31:29,849 - #41 main
+INFO  14:31:29,849 - #12 (
+INFO  14:31:29,850 - #13 )
+INFO  14:31:29,856 - #3 {
+INFO  14:31:29,857 - #4 }
+INFO  14:31:29,858 - #4 }
+INFO  14:31:29,859 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_var(
+    ConstVarDeclList_const(
+      ConstVarDeclList_const(
+        NoConstVarDeclList(
+        ) [NoConstVarDeclList]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclList1(
+           pi
+            NumCharBoolConstList_num(
+             3
+            ) [NumCharBoolConstList_num]
+          ) [ConstDeclList1]
+          NoConstDeclList2(
+          ) [NoConstDeclList2]
+        ) [ConstDeclList]
+      ) [ConstVarDeclList_const]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclList1(
+         g
+          NumCharBoolConstList_num(
+           10
+          ) [NumCharBoolConstList_num]
+        ) [ConstDeclList1]
+        NoConstDeclList2(
+        ) [NoConstDeclList2]
+      ) [ConstDeclList]
+    ) [ConstVarDeclList_const]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      NoSquare(
+       x
+      ) [NoSquare]
+      NoVarDeclList1(
+      ) [NoVarDeclList1]
+    ) [VarDeclList]
+  ) [ConstVarDeclList_var]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+        ) [MethodSignature_void]
+        MethodSignatureIDENT(
+         main
+        ) [MethodSignatureIDENT]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      NoVarDeclList_md(
+      ) [NoVarDeclList_md]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  14:31:29,860 - ===============================================================
+INFO  14:31:29,864 - ===============================================================
+INFO  14:31:29,864 - Parsiranje uspesno zavrseno!

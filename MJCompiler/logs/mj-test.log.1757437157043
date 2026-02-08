@@ -1,0 +1,84 @@
+INFO  18:35:57,908 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:35:57,957 - #2 program
+INFO  18:35:57,957 - #41 Keske
+INFO  18:35:57,957 - #5 const
+INFO  18:35:57,959 - #41 int
+INFO  18:35:57,959 - #41 pi
+INFO  18:35:57,959 - #6 =
+INFO  18:35:57,959 - #43 3
+INFO  18:35:57,959 - #8 ;
+INFO  18:35:57,961 - #3 {
+INFO  18:35:57,962 - #11 void
+INFO  18:35:57,962 - #41 main
+INFO  18:35:57,962 - #12 (
+INFO  18:35:57,962 - #13 )
+INFO  18:35:57,963 - #3 {
+INFO  18:35:57,965 - #20 print
+INFO  18:35:57,965 - #12 (
+INFO  18:35:57,965 - #43 1
+INFO  18:35:57,965 - #13 )
+INFO  18:35:57,967 - #8 ;
+INFO  18:35:57,967 - #4 }
+INFO  18:35:57,969 - #4 }
+INFO  18:35:57,971 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_const(
+    NoConstVarDeclList(
+    ) [NoConstVarDeclList]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclList1(
+       pi
+        NumCharBoolConstList_num(
+         3
+        ) [NumCharBoolConstList_num]
+      ) [ConstDeclList1]
+      NoConstDeclList2(
+      ) [NoConstDeclList2]
+    ) [ConstDeclList]
+  ) [ConstVarDeclList_const]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+         main
+        ) [MethodSignature_void]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      NoVarDeclList_md(
+      ) [NoVarDeclList_md]
+      StatementList_node(
+        Statement_print(
+          ExprTerm_node(
+            AddopTermList_term(
+              Term(
+                MulopList_factor(
+                  NoFactor_minus(
+                    Factor1_num(
+                     1
+                    ) [Factor1_num]
+                  ) [NoFactor_minus]
+                ) [MulopList_factor]
+              ) [Term]
+            ) [AddopTermList_term]
+          ) [ExprTerm_node]
+          NoNumConstSquare(
+          ) [NoNumConstSquare]
+        ) [Statement_print]
+        NoStatement(
+        ) [NoStatement]
+      ) [StatementList_node]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  18:35:57,979 - ========================================================================
+INFO  18:35:57,985 - ========================================================================
+INFO  18:35:57,985 - Generating bytecode file: C:\pp1domaci\workspace\MJCompiler\test\program.obj
+INFO  18:35:57,992 - Parsiranje uspesno zavrseno!

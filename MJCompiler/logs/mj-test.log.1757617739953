@@ -1,0 +1,216 @@
+INFO  21:08:47,154 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:08:47,189 - #2 program
+INFO  21:08:47,189 - #41 Keske
+INFO  21:08:47,191 - #5 const
+INFO  21:08:47,192 - #41 int
+INFO  21:08:47,192 - #41 pi
+INFO  21:08:47,192 - #6 =
+INFO  21:08:47,193 - #43 3
+INFO  21:08:47,193 - #8 ;
+INFO  21:08:47,194 - #3 {
+INFO  21:08:47,195 - #11 void
+INFO  21:08:47,195 - #41 f
+INFO  21:08:47,195 - #12 (
+INFO  21:08:47,195 - #13 )
+INFO  21:08:47,196 - #3 {
+INFO  21:08:47,197 - #18 return
+INFO  21:08:47,197 - #43 1
+INFO  21:08:47,197 - #8 ;
+INFO  21:08:47,198 - #4 }
+INFO  21:08:47,199 - #11 void
+INFO  21:08:47,200 - #41 main
+INFO  21:08:47,200 - #12 (
+INFO  21:08:47,200 - #13 )
+INFO  21:08:47,201 - #41 int
+INFO  21:08:47,201 - #41 a
+INFO  21:08:47,201 - #7 ,
+INFO  21:08:47,201 - #41 b
+INFO  21:08:47,201 - #7 ,
+INFO  21:08:47,201 - #41 c
+INFO  21:08:47,201 - #9 [
+INFO  21:08:47,201 - #10 ]
+INFO  21:08:47,201 - #8 ;
+INFO  21:08:47,201 - #41 char
+INFO  21:08:47,202 - #41 carr
+INFO  21:08:47,202 - #9 [
+INFO  21:08:47,202 - #10 ]
+INFO  21:08:47,202 - #8 ;
+INFO  21:08:47,202 - #3 {
+INFO  21:08:47,202 - #41 a
+INFO  21:08:47,202 - #6 =
+INFO  21:08:47,202 - #41 f
+INFO  21:08:47,203 - #12 (
+INFO  21:08:47,203 - #13 )
+INFO  21:08:47,204 - #8 ;
+INFO  21:08:47,204 - #20 print
+INFO  21:08:47,204 - #12 (
+INFO  21:08:47,204 - #41 a
+INFO  21:08:47,204 - #13 )
+INFO  21:08:47,205 - #8 ;
+INFO  21:08:47,205 - #4 }
+INFO  21:08:47,205 - #4 }
+INFO  21:08:47,207 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_const(
+    NoConstVarDeclList(
+    ) [NoConstVarDeclList]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclList1(
+       pi
+        NumCharBoolConstList_num(
+         3
+        ) [NumCharBoolConstList_num]
+      ) [ConstDeclList1]
+      NoConstDeclList2(
+      ) [NoConstDeclList2]
+    ) [ConstDeclList]
+  ) [ConstVarDeclList_const]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+         f
+        ) [MethodSignature_void]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      NoVarDeclList_md(
+      ) [NoVarDeclList_md]
+      StatementList_node(
+        Statement_return(
+          ExprSquare_node(
+            ExprTerm_node(
+              AddopTermList_term(
+                Term(
+                  MulopList_factor(
+                    NoFactor_minus(
+                      Factor1_num(
+                       1
+                      ) [Factor1_num]
+                    ) [NoFactor_minus]
+                  ) [MulopList_factor]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [ExprTerm_node]
+          ) [ExprSquare_node]
+        ) [Statement_return]
+        NoStatement(
+        ) [NoStatement]
+      ) [StatementList_node]
+    ) [MethodDecl]
+    MethodDeclList_node(
+      MethodDecl(
+        MethodSignature(
+          MethodSignature_void(
+           main
+          ) [MethodSignature_void]
+          NoFormParsSquare(
+          ) [NoFormParsSquare]
+        ) [MethodSignature]
+        VarDeclList_md_node(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarItem_ident(
+             a
+            ) [VarItem_ident]
+            VarDeclList1_node(
+              VarItem_ident(
+               b
+              ) [VarItem_ident]
+              VarDeclList1_node(
+                VarItem_array(
+                 c
+                ) [VarItem_array]
+                NoVarDeclList1(
+                ) [NoVarDeclList1]
+              ) [VarDeclList1_node]
+            ) [VarDeclList1_node]
+          ) [VarDeclList]
+          VarDeclList_md_node(
+            VarDeclList(
+              Type(
+               char
+              ) [Type]
+              VarItem_array(
+               carr
+              ) [VarItem_array]
+              NoVarDeclList1(
+              ) [NoVarDeclList1]
+            ) [VarDeclList]
+            NoVarDeclList_md(
+            ) [NoVarDeclList_md]
+          ) [VarDeclList_md_node]
+        ) [VarDeclList_md_node]
+        StatementList_node(
+          Statement_ds(
+            Choose_ds_a(
+              Designator_Ident(
+               a
+              ) [Designator_Ident]
+              Assignop(
+              ) [Assignop]
+              ExprTerm_node(
+                AddopTermList_term(
+                  Term(
+                    MulopList_factor(
+                      NoFactor_minus(
+                        Factor1Square_node(
+                          Designator_Ident(
+                           f
+                          ) [Designator_Ident]
+                          ActParsWithParen(
+                            NoActParsSquare(
+                              ActParsBegin(
+                              ) [ActParsBegin]
+                            ) [NoActParsSquare]
+                          ) [ActParsWithParen]
+                        ) [Factor1Square_node]
+                      ) [NoFactor_minus]
+                    ) [MulopList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprTerm_node]
+            ) [Choose_ds_a]
+          ) [Statement_ds]
+          StatementList_node(
+            Statement_print(
+              ExprTerm_node(
+                AddopTermList_term(
+                  Term(
+                    MulopList_factor(
+                      NoFactor_minus(
+                        Factor1Square_des(
+                          Designator_Ident(
+                           a
+                          ) [Designator_Ident]
+                        ) [Factor1Square_des]
+                      ) [NoFactor_minus]
+                    ) [MulopList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprTerm_node]
+              NoNumConstSquare(
+              ) [NoNumConstSquare]
+            ) [Statement_print]
+            NoStatement(
+            ) [NoStatement]
+          ) [StatementList_node]
+        ) [StatementList_node]
+      ) [MethodDecl]
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+    ) [MethodDeclList_node]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  21:08:47,207 - ========================================================================
+ERROR 21:08:47,213 - Nevalidan tip return metode: f na liniji 6
+ERROR 21:08:47,213 - Neadekvatna dodela vrednosti u promenljivu: a na liniji 10
+INFO  21:08:47,213 - ========================================================================
+ERROR 21:08:47,213 - Parsiranje NIJE uspesno zavrseno!

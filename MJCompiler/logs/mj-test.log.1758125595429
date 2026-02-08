@@ -1,0 +1,155 @@
+INFO  18:10:53,773 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:10:53,820 - #2 program
+INFO  18:10:53,820 - #43 Test
+INFO  18:10:53,820 - #30 final
+INFO  18:10:53,822 - #43 int
+INFO  18:10:53,822 - #43 arr
+INFO  18:10:53,823 - #9 [
+INFO  18:10:53,823 - #10 ]
+INFO  18:10:53,823 - #8 ;
+INFO  18:10:53,824 - #3 {
+INFO  18:10:53,824 - #11 void
+INFO  18:10:53,824 - #43 main
+INFO  18:10:53,824 - #12 (
+INFO  18:10:53,824 - #13 )
+INFO  18:10:53,824 - #3 {
+INFO  18:10:53,826 - #43 arr
+INFO  18:10:53,826 - #6 =
+INFO  18:10:53,826 - #28 new
+INFO  18:10:53,826 - #43 int
+INFO  18:10:53,827 - #9 [
+INFO  18:10:53,827 - #45 1
+INFO  18:10:53,827 - #10 ]
+INFO  18:10:53,828 - #8 ;
+INFO  18:10:53,829 - #43 arr
+INFO  18:10:53,829 - #9 [
+INFO  18:10:53,830 - #45 0
+INFO  18:10:53,830 - #10 ]
+INFO  18:10:53,830 - #6 =
+INFO  18:10:53,830 - #45 0
+INFO  18:10:53,830 - #8 ;
+INFO  18:10:53,830 - #4 }
+INFO  18:10:53,831 - #4 }
+INFO  18:10:53,833 - Program(
+  ProgramIDENT(
+   Test
+  ) [ProgramIDENT]
+  ConstVarDeclList_var(
+    NoConstVarDeclList(
+    ) [NoConstVarDeclList]
+    VarDeclList_modif(
+      Final(
+      ) [Final]
+      Type(
+       int
+      ) [Type]
+      VarItem_array(
+       arr
+      ) [VarItem_array]
+      NoVarDeclList1(
+      ) [NoVarDeclList1]
+    ) [VarDeclList_modif]
+  ) [ConstVarDeclList_var]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+         main
+        ) [MethodSignature_void]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      NoVarDeclList_md(
+      ) [NoVarDeclList_md]
+      StatementList_node(
+        Statement_ds(
+          Choose_ds_a(
+            Designator_Ident(
+             arr
+            ) [Designator_Ident]
+            Assignop(
+            ) [Assignop]
+            ExprTerm_node(
+              AddopTermList_term(
+                Term(
+                  MulopList_factor(
+                    NoFactor_minus(
+                      Factor1_new(
+                        Type(
+                         int
+                        ) [Type]
+                        ChooseFactor1_node1(
+                          ExprTerm_node(
+                            AddopTermList_term(
+                              Term(
+                                MulopList_factor(
+                                  NoFactor_minus(
+                                    Factor1_num(
+                                     1
+                                    ) [Factor1_num]
+                                  ) [NoFactor_minus]
+                                ) [MulopList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprTerm_node]
+                        ) [ChooseFactor1_node1]
+                      ) [Factor1_new]
+                    ) [NoFactor_minus]
+                  ) [MulopList_factor]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [ExprTerm_node]
+          ) [Choose_ds_a]
+        ) [Statement_ds]
+        StatementList_node(
+          Statement_ds(
+            Choose_ds_a(
+              Designator_node(
+                DesignatorList(
+                 arr
+                ) [DesignatorList]
+                ExprTerm_node(
+                  AddopTermList_term(
+                    Term(
+                      MulopList_factor(
+                        NoFactor_minus(
+                          Factor1_num(
+                           0
+                          ) [Factor1_num]
+                        ) [NoFactor_minus]
+                      ) [MulopList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprTerm_node]
+              ) [Designator_node]
+              Assignop(
+              ) [Assignop]
+              ExprTerm_node(
+                AddopTermList_term(
+                  Term(
+                    MulopList_factor(
+                      NoFactor_minus(
+                        Factor1_num(
+                         0
+                        ) [Factor1_num]
+                      ) [NoFactor_minus]
+                    ) [MulopList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprTerm_node]
+            ) [Choose_ds_a]
+          ) [Statement_ds]
+          NoStatement(
+          ) [NoStatement]
+        ) [StatementList_node]
+      ) [StatementList_node]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  18:10:53,833 - ========================================================================
+INFO  18:10:53,839 - Obilazak niza arr 1 na liniji 2
+INFO  18:10:53,839 - ========================================================================
+INFO  18:10:53,840 - Generating bytecode file: C:\pp1domaci\workspace\MJCompiler\test\program.obj
+INFO  18:10:53,845 - Parsiranje uspesno zavrseno!

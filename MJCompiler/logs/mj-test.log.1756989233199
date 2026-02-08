@@ -1,0 +1,23 @@
+INFO  14:33:30,281 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  14:33:30,314 - #2 program
+INFO  14:33:30,314 - #41 Keske
+INFO  14:33:30,314 - #5 const
+INFO  14:33:30,315 - #41 int
+INFO  14:33:30,315 - #41 pi
+INFO  14:33:30,316 - #6 =
+INFO  14:33:30,316 - #43 3
+INFO  14:33:30,316 - #8 ;
+INFO  14:33:30,317 - #5 const
+INFO  14:33:30,318 - #41 int
+INFO  14:33:30,318 - #41 g
+INFO  14:33:30,318 - #6 =
+INFO  14:33:30,318 - #43 10
+INFO  14:33:30,318 - #8 ;
+INFO  14:33:30,318 - #41 char
+INFO  14:33:30,318 - #41 x
+INFO  14:33:30,318 - #7 ,
+INFO  14:33:30,318 - #41 y
+INFO  14:33:30,318 - #8 ;
+ERROR 14:33:30,319 - 
+Sintaksna greska na liniji 6
+ERROR 14:33:30,319 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

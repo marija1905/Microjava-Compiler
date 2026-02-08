@@ -1,0 +1,123 @@
+INFO  17:13:00,804 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:13:00,842 - #2 program
+INFO  17:13:00,842 - #41 Keske
+INFO  17:13:00,842 - #5 const
+INFO  17:13:00,843 - #41 int
+INFO  17:13:00,843 - #41 pi
+INFO  17:13:00,844 - #6 =
+INFO  17:13:00,844 - #43 3
+INFO  17:13:00,844 - #8 ;
+INFO  17:13:00,845 - #5 const
+INFO  17:13:00,846 - #41 int
+INFO  17:13:00,846 - #41 g
+INFO  17:13:00,846 - #6 =
+INFO  17:13:00,846 - #43 10
+INFO  17:13:00,846 - #8 ;
+INFO  17:13:00,846 - #41 char
+INFO  17:13:00,846 - #41 x
+INFO  17:13:00,846 - #7 ,
+INFO  17:13:00,846 - #41 y
+INFO  17:13:00,847 - #9 [
+INFO  17:13:00,847 - #10 ]
+INFO  17:13:00,847 - #8 ;
+INFO  17:13:00,848 - #3 {
+INFO  17:13:00,850 - #11 void
+INFO  17:13:00,850 - #41 main
+INFO  17:13:00,851 - #12 (
+INFO  17:13:00,851 - #13 )
+INFO  17:13:00,853 - #41 int
+INFO  17:13:00,853 - #41 a
+INFO  17:13:00,853 - #8 ;
+INFO  17:13:00,853 - #3 {
+INFO  17:13:00,854 - #4 }
+INFO  17:13:00,855 - #4 }
+INFO  17:13:00,856 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_var(
+    ConstVarDeclList_const(
+      ConstVarDeclList_const(
+        NoConstVarDeclList(
+        ) [NoConstVarDeclList]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclList1(
+           pi
+            NumCharBoolConstList_num(
+             3
+            ) [NumCharBoolConstList_num]
+          ) [ConstDeclList1]
+          NoConstDeclList2(
+          ) [NoConstDeclList2]
+        ) [ConstDeclList]
+      ) [ConstVarDeclList_const]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclList1(
+         g
+          NumCharBoolConstList_num(
+           10
+          ) [NumCharBoolConstList_num]
+        ) [ConstDeclList1]
+        NoConstDeclList2(
+        ) [NoConstDeclList2]
+      ) [ConstDeclList]
+    ) [ConstVarDeclList_const]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarItem_ident(
+       x
+      ) [VarItem_ident]
+      VarDeclList1_node(
+        VarItem_array(
+         y
+        ) [VarItem_array]
+        NoVarDeclList1(
+        ) [NoVarDeclList1]
+      ) [VarDeclList1_node]
+    ) [VarDeclList]
+  ) [ConstVarDeclList_var]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+        ) [MethodSignature_void]
+        MethodSignatureIDENT(
+         main
+        ) [MethodSignatureIDENT]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      VarDeclList_md_node(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarItem_ident(
+           a
+          ) [VarItem_ident]
+          NoVarDeclList1(
+          ) [NoVarDeclList1]
+        ) [VarDeclList]
+        NoVarDeclList_md(
+        ) [NoVarDeclList_md]
+      ) [VarDeclList_md_node]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  17:13:00,856 - ===============================================================
+ERROR 17:13:00,861 - Dvostruka definicija promenljive: x na liniji 6
+ERROR 17:13:00,861 - Dvostruka definicija niza: y na liniji 6
+INFO  17:13:00,861 - ===============================================================
+ERROR 17:13:00,863 - Parsiranje NIJE uspesno zavrseno!

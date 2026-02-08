@@ -1,0 +1,13 @@
+package rs.ac.bg.etf.pp1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import rs.etf.pp1.symboltable.concepts.Struct;
+
+import rs.ac.bg.etf.pp1.ast.VisitorAdaptor;
+
+public class ActParsVisit extends VisitorAdaptor {
+	List<Struct> actParList = new ArrayList<>();
+
+}

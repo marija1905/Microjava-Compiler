@@ -1,0 +1,137 @@
+INFO  18:44:44,961 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:44:44,998 - #2 program
+INFO  18:44:44,998 - #41 Keske
+INFO  18:44:44,998 - #5 const
+INFO  18:44:44,999 - #41 int
+INFO  18:44:44,999 - #41 pi
+INFO  18:44:45,000 - #6 =
+INFO  18:44:45,000 - #43 3
+INFO  18:44:45,000 - #8 ;
+INFO  18:44:45,001 - #3 {
+INFO  18:44:45,001 - #11 void
+INFO  18:44:45,003 - #41 main
+INFO  18:44:45,003 - #12 (
+INFO  18:44:45,003 - #13 )
+INFO  18:44:45,004 - #41 int
+INFO  18:44:45,004 - #41 a
+INFO  18:44:45,004 - #7 ,
+INFO  18:44:45,005 - #41 b
+INFO  18:44:45,005 - #8 ;
+INFO  18:44:45,006 - #41 char
+INFO  18:44:45,006 - #41 carr
+INFO  18:44:45,006 - #9 [
+INFO  18:44:45,006 - #10 ]
+INFO  18:44:45,007 - #8 ;
+INFO  18:44:45,007 - #3 {
+INFO  18:44:45,008 - #41 a
+INFO  18:44:45,008 - #23 ++
+INFO  18:44:45,008 - #8 ;
+INFO  18:44:45,008 - #20 print
+INFO  18:44:45,008 - #12 (
+INFO  18:44:45,008 - #41 a
+INFO  18:44:45,008 - #13 )
+INFO  18:44:45,009 - #8 ;
+INFO  18:44:45,009 - #4 }
+INFO  18:44:45,010 - #4 }
+INFO  18:44:45,012 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_const(
+    NoConstVarDeclList(
+    ) [NoConstVarDeclList]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclList1(
+       pi
+        NumCharBoolConstList_num(
+         3
+        ) [NumCharBoolConstList_num]
+      ) [ConstDeclList1]
+      NoConstDeclList2(
+      ) [NoConstDeclList2]
+    ) [ConstDeclList]
+  ) [ConstVarDeclList_const]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+         main
+        ) [MethodSignature_void]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      VarDeclList_md_node(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarItem_ident(
+           a
+          ) [VarItem_ident]
+          VarDeclList1_node(
+            VarItem_ident(
+             b
+            ) [VarItem_ident]
+            NoVarDeclList1(
+            ) [NoVarDeclList1]
+          ) [VarDeclList1_node]
+        ) [VarDeclList]
+        VarDeclList_md_node(
+          VarDeclList(
+            Type(
+             char
+            ) [Type]
+            VarItem_array(
+             carr
+            ) [VarItem_array]
+            NoVarDeclList1(
+            ) [NoVarDeclList1]
+          ) [VarDeclList]
+          NoVarDeclList_md(
+          ) [NoVarDeclList_md]
+        ) [VarDeclList_md_node]
+      ) [VarDeclList_md_node]
+      StatementList_node(
+        Statement_ds(
+          Choose_ds_i(
+            Designator_Ident(
+             a
+            ) [Designator_Ident]
+          ) [Choose_ds_i]
+        ) [Statement_ds]
+        StatementList_node(
+          Statement_print(
+            ExprTerm_node(
+              AddopTermList_term(
+                Term(
+                  MulopList_factor(
+                    NoFactor_minus(
+                      Factor1Square_des(
+                        Designator_Ident(
+                         a
+                        ) [Designator_Ident]
+                      ) [Factor1Square_des]
+                    ) [NoFactor_minus]
+                  ) [MulopList_factor]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [ExprTerm_node]
+            NoNumConstSquare(
+            ) [NoNumConstSquare]
+          ) [Statement_print]
+          NoStatement(
+          ) [NoStatement]
+        ) [StatementList_node]
+      ) [StatementList_node]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  18:44:45,012 - ========================================================================
+INFO  18:44:45,018 - ========================================================================
+INFO  18:44:45,019 - Generating bytecode file: C:\pp1domaci\workspace\MJCompiler\test\program.obj
+INFO  18:44:45,024 - Parsiranje uspesno zavrseno!

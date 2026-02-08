@@ -1,0 +1,22 @@
+// Test301
+
+program test301
+
+const int nula = 0;
+const int jedan = 1;
+const int pet = 5;
+
+int niz[];
+char nizch[];
+
+int a;
+
+set s1, s2, s3;
+	
+{
+	f1(int a, int b) set s4;{
+		add(s4, 3);
+	}
+}
+
+

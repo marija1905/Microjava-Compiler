@@ -1,0 +1,343 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal PROG, LBRACE, RBRACE, CONST, EQUAL, COMMA, SEMICOLON, LBRACKET, RBRACKET, VOID, LPAREN, RPAREN, IF, ELSE, BREAK, CONTINUE, RETURN, READ, PRINT;
+terminal DO, WHILE, INCREMENT, DECREMENT, OR, AND, MAP, NEW;
+terminal NOT_EQUAL, EQUAL_EQUAL, GREATER_EQUAL, GREATER, LESS_EQUAL, LESS, PLUS, MINUS, MULTIPLY, DIVIDE, MOD, UNION;
+terminal String IDENT;
+terminal Character CHARCONST;
+terminal Integer NUMCONST, BOOLCONST;
+
+nonterminal Program, ConstVarDeclList, MethodDeclList, ConstDeclList, VarDeclList, Type, NumCharBoolConstList, ConstDeclList1, ConstDeclList2;
+nonterminal Square, VarDeclList1, MethodSignatureType, MethodSignature, FormParsSquare, VarDeclList_md, MethodDecl, StatementList, Statement, FormPars;
+nonterminal FormParsList, DesignatorStatement, ElseSquare, NumConstSquare, ConditionSquare, DesignatorStatementSquare;
+nonterminal Choose_ds, Assignop, Setop, ActParsSquare, ActPars, ExprList, Relop, ActParsBegin;
+nonterminal MinusSquare, Mulop, Addop, ChooseFactor1, ActParsWithParen, ProgramIDENT, Label, FormParsTypeSquare, StatementDO;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor, Factor1, MulopList, AddopTermList, Term, Expr, ExprSquare;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Condition, ConditionList, CondTerm, CondTermList, CondFact, RelopExprSquare;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator, DesignatorList; 
+
+precedence left ELSE;
+
+
+Program ::= (Program) PROG ProgramIDENT ConstVarDeclList LBRACE MethodDeclList RBRACE;
+
+ProgramIDENT ::= (ProgramIDENT) IDENT; 
+
+ConstVarDeclList ::= (ConstVarDeclList_const) ConstVarDeclList ConstDeclList
+				| 
+				(ConstVarDeclList_var) ConstVarDeclList VarDeclList
+				| 
+				(NoConstVarDeclList) /* epsilon */
+				;
+
+ConstDeclList ::= (ConstDeclList) CONST Type ConstDeclList1 ConstDeclList2 SEMICOLON;
+
+ConstDeclList1 ::= (ConstDeclList1) IDENT EQUAL NumCharBoolConstList;
+
+ConstDeclList2 ::= (ConstDeclList2_comma) COMMA ConstDeclList1 ConstDeclList2
+				|
+				(NoConstDeclList2) /* epsilon */
+				;
+
+NumCharBoolConstList ::= (NumCharBoolConstList_num) NUMCONST
+					| 
+					(NumCharBoolConstList_char) CHARCONST
+					|
+					(NumCharBoolConstList_bool) BOOLCONST
+					;
+					
+MethodDeclList ::= (MethodDeclList_node) MethodDecl MethodDeclList 
+				|
+				(NoMethodDeclList) /* epsilon */
+				;
+			
+Type ::= (Type) IDENT;
+					
+VarDeclList ::= (VarDeclList) Type Square VarDeclList1 SEMICOLON;
+
+Square ::= (VarItem_ident) IDENT 
+		|
+		(VarItem_array) IDENT LBRACKET RBRACKET 
+		; 
+			
+VarDeclList1 ::= (VarDeclList1_node) COMMA Square VarDeclList1
+			|
+			(NoVarDeclList1) /* epsilon */
+			;
+
+MethodSignature ::= (MethodSignature) MethodSignatureType LPAREN FormParsSquare RPAREN;
+
+MethodSignatureType ::= (MethodSignature_type) Type IDENT
+					|
+					(MethodSignature_void) VOID IDENT
+					;
+
+MethodDecl ::= 	(MethodDecl) MethodSignature VarDeclList_md LBRACE StatementList RBRACE;
+
+VarDeclList_md ::= (VarDeclList_md_node) VarDeclList VarDeclList_md
+				|
+				(NoVarDeclList_md) /* epsilon */
+				;
+				
+StatementList ::= (StatementList_node) Statement StatementList
+				|
+				(NoStatement) /* epsilon */
+				;
+				
+FormParsSquare ::= (FormParsSquare_node) FormPars
+				|
+				(NoFormParsSquare) /* epsilon */
+				;
+						
+FormPars ::= (FormPars) FormParsTypeSquare FormParsList;
+
+FormParsList ::= (FormParsList_node) COMMA FormParsTypeSquare FormParsList
+				|
+				(NoFormParsList) /* epsilon */
+				;
+				
+FormParsTypeSquare ::= (FormPars_type) Type IDENT
+					|
+					(FormPars_array) Type IDENT LBRACKET RBRACKET
+					;
+
+Statement ::= (Statement_ds) DesignatorStatement SEMICOLON
+			|
+			(Statement_if) IF LPAREN Condition RPAREN Statement ElseSquare
+			|
+			(Statement_break) BREAK SEMICOLON
+			|
+			(Statement_continue) CONTINUE SEMICOLON
+			|
+			(Statement_return) RETURN ExprSquare SEMICOLON
+			|
+			(Statement_read) READ LPAREN Designator RPAREN SEMICOLON
+			|
+			(Statement_print) PRINT LPAREN Expr NumConstSquare RPAREN SEMICOLON
+			|
+			(Statement_do) StatementDO Statement WHILE LPAREN ConditionSquare RPAREN SEMICOLON
+			|
+			(Statement_list) LBRACE StatementList RBRACE
+			;
+	
+StatementDO ::= (StatementDO) DO;
+			
+ElseSquare ::= (ElseSquare_node) ELSE Statement
+			|
+			(NoElseSquare)/* epsilon */
+			;
+			
+ExprSquare ::= (ExprSquare_node) Expr
+			|
+			(NoExprSquare) /* epsilon */ 
+			;
+	
+NumConstSquare ::= (NumConstSquare_node) COMMA NUMCONST NumConstSquare
+				|
+				(NoNumConstSquare) /* epsilon */	
+				;
+			
+ConditionSquare ::= (ConditionSquare_node) Condition DesignatorStatementSquare
+				|
+				(NoConditionSquare) /* epsilon */
+				;			
+
+DesignatorStatementSquare ::= (DesignatorStatementSquare_node) COMMA DesignatorStatement DesignatorStatementSquare
+							|
+							(NoDesignatorStatementSquare) /* epsilon */
+							;
+
+DesignatorStatement ::= (Choose_ds_a) Designator Assignop Expr
+					|
+					(Choose_ds_p) Designator LPAREN ActParsSquare RPAREN
+					|
+					(Choose_ds_i) Designator INCREMENT
+					|
+					(Choose_ds_d) Designator DECREMENT
+					|
+					(DesignatorStatement2) Designator Assignop Designator Setop Designator
+					;
+
+ActParsSquare ::= (ActParsSquare_node) ActParsBegin ExprList
+				|
+				(NoActParsSquare) ActParsBegin /* epsilon */
+				;
+
+ActParsBegin ::= (ActParsBegin) /* epsilon */;
+
+ActPars ::= (ActPars) Expr;
+
+ExprList ::= (ExprList_node) ExprList COMMA ActPars 
+		|
+		(ActPars) ActPars /* epsilon */
+		;
+
+Condition ::= (Condition) CondTerm ConditionList;
+
+ConditionList ::= (ConditionList_node) OR CondTerm ConditionList
+				|
+				(NoConditionList) /* epsilon */
+				;
+
+CondTerm ::= (CondTerm) CondFact CondTermList;
+
+CondTermList ::= (CondTermList_node) AND CondFact CondTermList
+				|
+				(NoCondTermList) /* epsilon */
+				;
+ 
+CondFact ::= (CondFact) Expr RelopExprSquare;
+
+RelopExprSquare ::= (RelopExprSquare_node) Relop Expr
+				|
+				(NoRelopExprSquare) /* epsilon */
+				;
+
+Expr ::= (ExprTerm_node) AddopTermList
+		|
+		(ExprDesignator) Designator MAP Designator
+		;
+
+AddopTermList ::= (AddopTermList_node) AddopTermList Addop Term 
+				|
+				(AddopTermList_term) Term /* epsilon */
+				;
+				
+Factor ::= (Factor_minus) MINUS Factor1
+			|
+			(NoFactor_minus) Factor1
+			;
+
+Term ::= (Term) MulopList;
+
+MulopList ::= (MulopList_node) MulopList Mulop Factor 
+			|
+			(MulopList_factor) Factor /* epsilon */
+			;
+	
+Factor1 ::= (Factor1Square_node) Designator ActParsWithParen
+			|
+			(Factor1Square_des) Designator
+			|
+			(Factor1_num) NUMCONST
+			|
+			(Factor1_char) CHARCONST
+			|
+			(Factor1_bool) BOOLCONST
+			|
+			(Factor1_new) NEW Type ChooseFactor1
+			|
+			(Factor1_expr) LPAREN Expr RPAREN
+			;	
+
+ActParsWithParen ::= (ActParsWithParen) LPAREN ActParsSquare RPAREN;	
+
+				
+ChooseFactor1 ::= (ChooseFactor1_node1) LBRACKET Expr RBRACKET
+				|
+				(ChooseFactor1_node2) ActParsWithParen
+				;
+				
+Designator ::= (Designator_node) DesignatorList LBRACKET Expr RBRACKET
+				|
+				(Designator_Ident) IDENT /* epsilon */
+				;
+
+DesignatorList ::= (DesignatorList) IDENT;
+				
+Label ::= (Label) IDENT;			
+
+Assignop ::= (Assignop) EQUAL;	
+
+Relop ::= (Relop_ee) EQUAL_EQUAL 
+		|
+		(Relop_ne) NOT_EQUAL
+		|
+		(Relop_ge) GREATER_EQUAL
+		|
+		(Relop_gr) GREATER
+		|
+		(Relop_le) LESS_EQUAL
+		|
+		(Relop_ls) LESS
+		;
+		
+Addop ::= (Addop_pl) PLUS
+		|
+		(Addop_mi) MINUS
+		; 		
+		
+Mulop ::= (Mulop_mu) MULTIPLY
+		|
+		(Mulop_di) DIVIDE
+		|
+		(Mulop_mo) MOD
+		;
+
+Setop ::= (Setop) UNION;
+		
+		
+		
+			
+			
+
+
+

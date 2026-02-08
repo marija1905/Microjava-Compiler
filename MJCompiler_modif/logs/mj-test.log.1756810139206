@@ -1,0 +1,14 @@
+INFO  12:47:36,989 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  12:47:37,023 - #2 program
+INFO  12:47:37,023 - #41 MJProgram
+INFO  12:47:37,023 - #3 {
+INFO  12:47:37,024 - #4 }
+INFO  12:47:37,026 - Program(
+  ProgramIDENT(
+   MJProgram
+  ) [ProgramIDENT]
+  NoConstVarDeclList(
+  ) [NoConstVarDeclList]
+  NoMethodDeclList(
+  ) [NoMethodDeclList]
+) [Program]

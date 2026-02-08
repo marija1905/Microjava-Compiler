@@ -1,0 +1,61 @@
+INFO  13:40:30,446 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:40:30,479 - #2 program
+INFO  13:40:30,479 - #41 Keske
+INFO  13:40:30,479 - #5 const
+INFO  13:40:30,480 - #41 int
+INFO  13:40:30,480 - #41 pi
+INFO  13:40:30,481 - #6 =
+INFO  13:40:30,481 - #43 3
+INFO  13:40:30,481 - #8 ;
+INFO  13:40:30,482 - #3 {
+INFO  13:40:30,483 - #11 void
+INFO  13:40:30,483 - #41 main
+INFO  13:40:30,484 - #12 (
+INFO  13:40:30,484 - #13 )
+INFO  13:40:30,485 - #3 {
+INFO  13:40:30,486 - #4 }
+INFO  13:40:30,487 - #4 }
+INFO  13:40:30,488 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_const(
+    NoConstVarDeclList(
+    ) [NoConstVarDeclList]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclList1(
+       pi
+        NumCharBoolConstList_num(
+         3
+        ) [NumCharBoolConstList_num]
+      ) [ConstDeclList1]
+      NoConstDeclList2(
+      ) [NoConstDeclList2]
+    ) [ConstDeclList]
+  ) [ConstVarDeclList_const]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+        ) [MethodSignature_void]
+        MethodSignatureIDENT(
+         main
+        ) [MethodSignatureIDENT]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      NoVarDeclList_md(
+      ) [NoVarDeclList_md]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  13:40:30,496 - ===============================================================
+INFO  13:40:30,500 - ===============================================================
+INFO  13:40:30,500 - Parsiranje uspesno zavrseno!

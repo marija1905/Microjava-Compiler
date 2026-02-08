@@ -1,0 +1,24 @@
+package rs.ac.bg.etf.pp1;
+
+import java.util.List;
+import java.util.ArrayList;
+import org.apache.log4j.Logger;
+
+import rs.ac.bg.etf.pp1.ast.*;
+import rs.etf.pp1.symboltable.Tab;
+import rs.etf.pp1.symboltable.concepts.Obj;
+import rs.etf.pp1.symboltable.concepts.Struct;
+
+public class ActParsVisit extends VisitorAdaptor {
+
+	public class ActParsVisit extends VisitorAdaptor {
+		List<Struct> actParList = new ArrayList<>();
+		
+		@Override
+		public void visit(ActPars actPars) {
+			report_error("apvelem: " + actPars.getExpr().struct , actPars);
+			actParList.add(actPars.getExpr().struct);
+		}
+
+	}
+}

@@ -1,0 +1,184 @@
+INFO  19:28:16,754 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:28:16,791 - #2 program
+INFO  19:28:16,791 - #41 Keske
+INFO  19:28:16,791 - #5 const
+INFO  19:28:16,793 - #41 int
+INFO  19:28:16,793 - #41 pi
+INFO  19:28:16,794 - #6 =
+INFO  19:28:16,794 - #43 3
+INFO  19:28:16,794 - #8 ;
+INFO  19:28:16,795 - #5 const
+INFO  19:28:16,796 - #41 int
+INFO  19:28:16,796 - #41 g
+INFO  19:28:16,796 - #6 =
+INFO  19:28:16,796 - #43 10
+INFO  19:28:16,796 - #8 ;
+INFO  19:28:16,797 - #41 char
+INFO  19:28:16,797 - #41 x
+INFO  19:28:16,797 - #7 ,
+INFO  19:28:16,797 - #41 y
+INFO  19:28:16,797 - #9 [
+INFO  19:28:16,797 - #10 ]
+INFO  19:28:16,797 - #8 ;
+INFO  19:28:16,797 - #41 bool
+INFO  19:28:16,805 - #41 t
+INFO  19:28:16,805 - #8 ;
+INFO  19:28:16,805 - #3 {
+INFO  19:28:16,805 - #11 void
+INFO  19:28:16,806 - #41 main
+INFO  19:28:16,806 - #12 (
+INFO  19:28:16,806 - #13 )
+INFO  19:28:16,806 - #41 int
+INFO  19:28:16,807 - #41 a
+INFO  19:28:16,807 - #7 ,
+INFO  19:28:16,807 - #41 b
+INFO  19:28:16,807 - #9 [
+INFO  19:28:16,807 - #10 ]
+INFO  19:28:16,807 - #8 ;
+INFO  19:28:16,807 - #41 int
+INFO  19:28:16,807 - #41 x
+INFO  19:28:16,807 - #8 ;
+INFO  19:28:16,807 - #3 {
+INFO  19:28:16,808 - #20 print
+INFO  19:28:16,808 - #12 (
+INFO  19:28:16,808 - #36 -
+INFO  19:28:16,808 - #43 1
+INFO  19:28:16,808 - #13 )
+INFO  19:28:16,810 - #8 ;
+INFO  19:28:16,810 - #4 }
+INFO  19:28:16,810 - #4 }
+INFO  19:28:16,812 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_var(
+    ConstVarDeclList_var(
+      ConstVarDeclList_const(
+        ConstVarDeclList_const(
+          NoConstVarDeclList(
+          ) [NoConstVarDeclList]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclList1(
+             pi
+              NumCharBoolConstList_num(
+               3
+              ) [NumCharBoolConstList_num]
+            ) [ConstDeclList1]
+            NoConstDeclList2(
+            ) [NoConstDeclList2]
+          ) [ConstDeclList]
+        ) [ConstVarDeclList_const]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclList1(
+           g
+            NumCharBoolConstList_num(
+             10
+            ) [NumCharBoolConstList_num]
+          ) [ConstDeclList1]
+          NoConstDeclList2(
+          ) [NoConstDeclList2]
+        ) [ConstDeclList]
+      ) [ConstVarDeclList_const]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarItem_ident(
+         x
+        ) [VarItem_ident]
+        VarDeclList1_node(
+          VarItem_array(
+           y
+          ) [VarItem_array]
+          NoVarDeclList1(
+          ) [NoVarDeclList1]
+        ) [VarDeclList1_node]
+      ) [VarDeclList]
+    ) [ConstVarDeclList_var]
+    VarDeclList(
+      Type(
+       bool
+      ) [Type]
+      VarItem_ident(
+       t
+      ) [VarItem_ident]
+      NoVarDeclList1(
+      ) [NoVarDeclList1]
+    ) [VarDeclList]
+  ) [ConstVarDeclList_var]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+         main
+        ) [MethodSignature_void]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      VarDeclList_md_node(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarItem_ident(
+           a
+          ) [VarItem_ident]
+          VarDeclList1_node(
+            VarItem_array(
+             b
+            ) [VarItem_array]
+            NoVarDeclList1(
+            ) [NoVarDeclList1]
+          ) [VarDeclList1_node]
+        ) [VarDeclList]
+        VarDeclList_md_node(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarItem_ident(
+             x
+            ) [VarItem_ident]
+            NoVarDeclList1(
+            ) [NoVarDeclList1]
+          ) [VarDeclList]
+          NoVarDeclList_md(
+          ) [NoVarDeclList_md]
+        ) [VarDeclList_md_node]
+      ) [VarDeclList_md_node]
+      StatementList_node(
+        Statement_print(
+          ExprTerm_node(
+            Term(
+              NoMulopList(
+                Factor_minus(
+                  Factor1_num(
+                   1
+                  ) [Factor1_num]
+                ) [Factor_minus]
+              ) [NoMulopList]
+            ) [Term]
+            NoAddopTermList(
+            ) [NoAddopTermList]
+          ) [ExprTerm_node]
+          NoNumConstSquare(
+          ) [NoNumConstSquare]
+        ) [Statement_print]
+        NoStatement(
+        ) [NoStatement]
+      ) [StatementList_node]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  19:28:16,813 - ===============================================================
+ERROR 19:28:16,818 - Nije dozvoljen minus ispred ne int vrednosti na liniji 12
+INFO  19:28:16,818 - ===============================================================
+ERROR 19:28:16,819 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,40 @@
+INFO  18:12:44,862 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:12:44,897 - #2 program
+INFO  18:12:44,897 - #41 Keske
+INFO  18:12:44,897 - #3 {
+INFO  18:12:44,898 - #11 void
+INFO  18:12:44,898 - #41 main
+INFO  18:12:44,899 - #12 (
+INFO  18:12:44,899 - #13 )
+INFO  18:12:44,900 - #3 {
+INFO  18:12:44,901 - #4 }
+INFO  18:12:44,901 - #4 }
+INFO  18:12:44,903 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  NoConstVarDeclList(
+  ) [NoConstVarDeclList]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+        ) [MethodSignature_void]
+        MethodSignatureIDENT(
+         main
+        ) [MethodSignatureIDENT]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      NoVarDeclList_md(
+      ) [NoVarDeclList_md]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  18:12:44,910 - ===============================================================
+INFO  18:12:44,915 - ===============================================================
+INFO  18:12:44,915 - Parsiranje uspesno zavrseno!

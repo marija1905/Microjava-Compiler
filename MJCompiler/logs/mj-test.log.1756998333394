@@ -1,0 +1,142 @@
+INFO  17:05:17,040 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:05:17,077 - #2 program
+INFO  17:05:17,077 - #41 Keske
+INFO  17:05:17,077 - #5 const
+INFO  17:05:17,078 - #41 int
+INFO  17:05:17,078 - #41 pi
+INFO  17:05:17,079 - #6 =
+INFO  17:05:17,079 - #43 3
+INFO  17:05:17,079 - #8 ;
+INFO  17:05:17,080 - #5 const
+INFO  17:05:17,081 - #41 int
+INFO  17:05:17,081 - #41 g
+INFO  17:05:17,081 - #6 =
+INFO  17:05:17,081 - #43 10
+INFO  17:05:17,081 - #8 ;
+INFO  17:05:17,081 - #41 char
+INFO  17:05:17,081 - #41 x
+INFO  17:05:17,081 - #7 ,
+INFO  17:05:17,082 - #41 y
+INFO  17:05:17,082 - #9 [
+INFO  17:05:17,082 - #10 ]
+INFO  17:05:17,082 - #8 ;
+INFO  17:05:17,083 - #3 {
+INFO  17:05:17,083 - #11 void
+INFO  17:05:17,090 - #41 main
+INFO  17:05:17,090 - #12 (
+INFO  17:05:17,091 - #13 )
+INFO  17:05:17,093 - #41 int
+INFO  17:05:17,094 - #41 a
+INFO  17:05:17,094 - #7 ,
+INFO  17:05:17,094 - #41 b
+INFO  17:05:17,094 - #9 [
+INFO  17:05:17,095 - #10 ]
+INFO  17:05:17,095 - #7 ,
+INFO  17:05:17,095 - #41 x
+INFO  17:05:17,095 - #8 ;
+INFO  17:05:17,095 - #3 {
+INFO  17:05:17,096 - #4 }
+INFO  17:05:17,098 - #4 }
+INFO  17:05:17,100 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_var(
+    ConstVarDeclList_const(
+      ConstVarDeclList_const(
+        NoConstVarDeclList(
+        ) [NoConstVarDeclList]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclList1(
+           pi
+            NumCharBoolConstList_num(
+             3
+            ) [NumCharBoolConstList_num]
+          ) [ConstDeclList1]
+          NoConstDeclList2(
+          ) [NoConstDeclList2]
+        ) [ConstDeclList]
+      ) [ConstVarDeclList_const]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclList1(
+         g
+          NumCharBoolConstList_num(
+           10
+          ) [NumCharBoolConstList_num]
+        ) [ConstDeclList1]
+        NoConstDeclList2(
+        ) [NoConstDeclList2]
+      ) [ConstDeclList]
+    ) [ConstVarDeclList_const]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarItem_ident(
+       x
+      ) [VarItem_ident]
+      VarDeclList1_node(
+        VarItem_array(
+         y
+        ) [VarItem_array]
+        NoVarDeclList1(
+        ) [NoVarDeclList1]
+      ) [VarDeclList1_node]
+    ) [VarDeclList]
+  ) [ConstVarDeclList_var]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+        ) [MethodSignature_void]
+        MethodSignatureIDENT(
+         main
+        ) [MethodSignatureIDENT]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      VarDeclList_md_node(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarItem_ident(
+           a
+          ) [VarItem_ident]
+          VarDeclList1_node(
+            VarItem_array(
+             b
+            ) [VarItem_array]
+            VarDeclList1_node(
+              VarItem_ident(
+               x
+              ) [VarItem_ident]
+              NoVarDeclList1(
+              ) [NoVarDeclList1]
+            ) [VarDeclList1_node]
+          ) [VarDeclList1_node]
+        ) [VarDeclList]
+        NoVarDeclList_md(
+        ) [NoVarDeclList_md]
+      ) [VarDeclList_md_node]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  17:05:17,100 - ===============================================================
+ERROR 17:05:17,106 - Dvostruka definicija promenljive: x na liniji 6
+ERROR 17:05:17,106 - Dvostruka definicija niza: y na liniji 6
+ERROR 17:05:17,106 - Dvostruka definicija promenljive: a na liniji 10
+ERROR 17:05:17,106 - Dvostruka definicija niza: b na liniji 10
+ERROR 17:05:17,106 - Dvostruka definicija promenljive: x na liniji 10
+INFO  17:05:17,106 - ===============================================================
+ERROR 17:05:17,106 - Parsiranje NIJE uspesno zavrseno!

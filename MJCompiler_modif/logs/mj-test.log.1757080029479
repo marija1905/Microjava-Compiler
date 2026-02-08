@@ -1,0 +1,46 @@
+INFO  15:47:02,496 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  15:47:02,532 - #2 program
+INFO  15:47:02,532 - #41 Keske
+INFO  15:47:02,532 - #5 const
+INFO  15:47:02,532 - #41 int
+INFO  15:47:02,532 - #41 pi
+INFO  15:47:02,533 - #6 =
+INFO  15:47:02,533 - #43 3
+INFO  15:47:02,533 - #8 ;
+INFO  15:47:02,534 - #5 const
+INFO  15:47:02,534 - #41 int
+INFO  15:47:02,534 - #41 g
+INFO  15:47:02,535 - #6 =
+INFO  15:47:02,535 - #43 10
+INFO  15:47:02,535 - #8 ;
+INFO  15:47:02,535 - #41 char
+INFO  15:47:02,535 - #41 x
+INFO  15:47:02,535 - #7 ,
+INFO  15:47:02,535 - #41 y
+INFO  15:47:02,535 - #9 [
+INFO  15:47:02,535 - #10 ]
+INFO  15:47:02,535 - #8 ;
+INFO  15:47:02,536 - #41 bool
+INFO  15:47:02,543 - #41 t
+INFO  15:47:02,543 - #8 ;
+INFO  15:47:02,543 - #3 {
+INFO  15:47:02,543 - #11 void
+INFO  15:47:02,543 - #41 main
+INFO  15:47:02,543 - #12 (
+INFO  15:47:02,543 - #13 )
+INFO  15:47:02,544 - #41 int
+INFO  15:47:02,544 - #41 a
+INFO  15:47:02,544 - #7 ,
+INFO  15:47:02,544 - #41 b
+INFO  15:47:02,544 - #9 [
+INFO  15:47:02,544 - #10 ]
+INFO  15:47:02,544 - #8 ;
+INFO  15:47:02,544 - #41 int
+INFO  15:47:02,545 - #41 x
+INFO  15:47:02,545 - #8 ;
+INFO  15:47:02,545 - #3 {
+INFO  15:47:02,545 - #41 int
+INFO  15:47:02,545 - #41 i
+ERROR 15:47:02,545 - 
+Sintaksna greska na liniji 12
+ERROR 15:47:02,545 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

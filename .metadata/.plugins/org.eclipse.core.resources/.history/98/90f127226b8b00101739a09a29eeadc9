@@ -1,0 +1,77 @@
+program Keske
+
+const int pi = 3;
+const int g = 10;
+
+char x, y[];
+bool t;
+
+{
+
+	void main() int a, b[]; int x; char eol;{
+		//a = b;
+		//a= 3 + b;
+		//a = 3 + b*2;
+		a = 2 + 3 * b[3];
+		//g = 3;
+		//b = new int[5];
+		//b[3] = b[2];
+		//b = null;
+		//b++;
+		//b[2]--;
+		//pi--;
+		//eol++;
+		
+		//read(a);
+		//read(b[2]);
+		print(3, 4);
+		print(a, 4);
+		print(eol, 4);
+		print(false, 4);
+		//print(b, 4);
+		print(b[2], 4);
+		return;
+	}
+	
+	bool m1(int fp1){
+		//m2();
+		return true;
+	}
+	
+	int m2() int a, b[]; bool r1, r2, r3; {
+		//break;
+		//do{
+			//break;
+			//do{
+				//break;
+			//}while(true);
+			//break;
+		//}while(true);
+		
+		if(true && a == 2 || r1 && a < 2) a++;
+		
+		if( b != null ) a++;
+		
+		//if(b != a) a++;
+		
+		return 1;
+	}
+	
+	bool f4(int x, bool r){ return true;}
+	int f1(int x) { return x; }
+	int f2(int x, bool b, int c) { return 1; }
+	int f5(int a, int b, int c, bool d) { return 1;} 
+	
+	int f3() set s1, s2; { 
+		//f4(1, 3, 4, true);
+		f2(f2(1, true, 2) , true,  f2(1, true, 4));
+		//s1 = s1 union s2;
+		//f4(f2(1, true), true);
+		//f5(1, 2, 3, true);
+		//f2(f2(1, true), true);
+		//f2(1, true);
+		//f1(1);
+		print(s1);
+		return 1;
+	}
+}

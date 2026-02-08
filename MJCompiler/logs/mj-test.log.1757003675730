@@ -1,0 +1,259 @@
+INFO  18:33:59,400 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:33:59,439 - #2 program
+INFO  18:33:59,440 - #41 Keske
+INFO  18:33:59,440 - #5 const
+INFO  18:33:59,441 - #41 int
+INFO  18:33:59,441 - #41 pi
+INFO  18:33:59,441 - #6 =
+INFO  18:33:59,442 - #43 3
+INFO  18:33:59,442 - #8 ;
+INFO  18:33:59,443 - #5 const
+INFO  18:33:59,443 - #41 int
+INFO  18:33:59,443 - #41 g
+INFO  18:33:59,443 - #6 =
+INFO  18:33:59,443 - #43 10
+INFO  18:33:59,443 - #8 ;
+INFO  18:33:59,443 - #41 char
+INFO  18:33:59,443 - #41 x
+INFO  18:33:59,443 - #7 ,
+INFO  18:33:59,443 - #41 y
+INFO  18:33:59,443 - #9 [
+INFO  18:33:59,445 - #10 ]
+INFO  18:33:59,445 - #8 ;
+INFO  18:33:59,445 - #41 bool
+INFO  18:33:59,452 - #41 t
+INFO  18:33:59,453 - #8 ;
+INFO  18:33:59,453 - #3 {
+INFO  18:33:59,453 - #11 void
+INFO  18:33:59,453 - #41 main
+INFO  18:33:59,453 - #12 (
+INFO  18:33:59,453 - #41 int
+INFO  18:33:59,453 - #41 p
+INFO  18:33:59,453 - #13 )
+INFO  18:33:59,455 - #41 int
+INFO  18:33:59,457 - #41 a
+INFO  18:33:59,457 - #7 ,
+INFO  18:33:59,457 - #41 b
+INFO  18:33:59,457 - #9 [
+INFO  18:33:59,457 - #10 ]
+INFO  18:33:59,457 - #8 ;
+INFO  18:33:59,457 - #41 int
+INFO  18:33:59,457 - #41 x
+INFO  18:33:59,457 - #8 ;
+INFO  18:33:59,457 - #3 {
+INFO  18:33:59,458 - #4 }
+INFO  18:33:59,459 - #41 bool
+INFO  18:33:59,460 - #41 m1
+INFO  18:33:59,460 - #12 (
+INFO  18:33:59,460 - #41 int
+INFO  18:33:59,460 - #41 i
+INFO  18:33:59,460 - #7 ,
+INFO  18:33:59,460 - #41 char
+INFO  18:33:59,460 - #41 d
+INFO  18:33:59,460 - #9 [
+INFO  18:33:59,460 - #10 ]
+INFO  18:33:59,460 - #13 )
+INFO  18:33:59,461 - #41 int
+INFO  18:33:59,461 - #41 a
+INFO  18:33:59,461 - #7 ,
+INFO  18:33:59,461 - #41 b
+INFO  18:33:59,461 - #9 [
+INFO  18:33:59,461 - #10 ]
+INFO  18:33:59,461 - #8 ;
+INFO  18:33:59,461 - #41 int
+INFO  18:33:59,462 - #41 x
+INFO  18:33:59,462 - #8 ;
+INFO  18:33:59,462 - #3 {
+INFO  18:33:59,462 - #4 }
+INFO  18:33:59,462 - #4 }
+INFO  18:33:59,463 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_var(
+    ConstVarDeclList_var(
+      ConstVarDeclList_const(
+        ConstVarDeclList_const(
+          NoConstVarDeclList(
+          ) [NoConstVarDeclList]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclList1(
+             pi
+              NumCharBoolConstList_num(
+               3
+              ) [NumCharBoolConstList_num]
+            ) [ConstDeclList1]
+            NoConstDeclList2(
+            ) [NoConstDeclList2]
+          ) [ConstDeclList]
+        ) [ConstVarDeclList_const]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclList1(
+           g
+            NumCharBoolConstList_num(
+             10
+            ) [NumCharBoolConstList_num]
+          ) [ConstDeclList1]
+          NoConstDeclList2(
+          ) [NoConstDeclList2]
+        ) [ConstDeclList]
+      ) [ConstVarDeclList_const]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarItem_ident(
+         x
+        ) [VarItem_ident]
+        VarDeclList1_node(
+          VarItem_array(
+           y
+          ) [VarItem_array]
+          NoVarDeclList1(
+          ) [NoVarDeclList1]
+        ) [VarDeclList1_node]
+      ) [VarDeclList]
+    ) [ConstVarDeclList_var]
+    VarDeclList(
+      Type(
+       bool
+      ) [Type]
+      VarItem_ident(
+       t
+      ) [VarItem_ident]
+      NoVarDeclList1(
+      ) [NoVarDeclList1]
+    ) [VarDeclList]
+  ) [ConstVarDeclList_var]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+         main
+        ) [MethodSignature_void]
+        FormParsSquare_node(
+          FormPars(
+            FormPars_type(
+              Type(
+               int
+              ) [Type]
+             p
+            ) [FormPars_type]
+            NoFormParsList(
+            ) [NoFormParsList]
+          ) [FormPars]
+        ) [FormParsSquare_node]
+      ) [MethodSignature]
+      VarDeclList_md_node(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarItem_ident(
+           a
+          ) [VarItem_ident]
+          VarDeclList1_node(
+            VarItem_array(
+             b
+            ) [VarItem_array]
+            NoVarDeclList1(
+            ) [NoVarDeclList1]
+          ) [VarDeclList1_node]
+        ) [VarDeclList]
+        VarDeclList_md_node(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarItem_ident(
+             x
+            ) [VarItem_ident]
+            NoVarDeclList1(
+            ) [NoVarDeclList1]
+          ) [VarDeclList]
+          NoVarDeclList_md(
+          ) [NoVarDeclList_md]
+        ) [VarDeclList_md_node]
+      ) [VarDeclList_md_node]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    MethodDeclList_node(
+      MethodDecl(
+        MethodSignature(
+          MethodSignature_type(
+            Type(
+             bool
+            ) [Type]
+           m1
+          ) [MethodSignature_type]
+          FormParsSquare_node(
+            FormPars(
+              FormPars_type(
+                Type(
+                 int
+                ) [Type]
+               i
+              ) [FormPars_type]
+              FormParsList_node(
+                FormPars_array(
+                  Type(
+                   char
+                  ) [Type]
+                 d
+                ) [FormPars_array]
+                NoFormParsList(
+                ) [NoFormParsList]
+              ) [FormParsList_node]
+            ) [FormPars]
+          ) [FormParsSquare_node]
+        ) [MethodSignature]
+        VarDeclList_md_node(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarItem_ident(
+             a
+            ) [VarItem_ident]
+            VarDeclList1_node(
+              VarItem_array(
+               b
+              ) [VarItem_array]
+              NoVarDeclList1(
+              ) [NoVarDeclList1]
+            ) [VarDeclList1_node]
+          ) [VarDeclList]
+          VarDeclList_md_node(
+            VarDeclList(
+              Type(
+               int
+              ) [Type]
+              VarItem_ident(
+               x
+              ) [VarItem_ident]
+              NoVarDeclList1(
+              ) [NoVarDeclList1]
+            ) [VarDeclList]
+            NoVarDeclList_md(
+            ) [NoVarDeclList_md]
+          ) [VarDeclList_md_node]
+        ) [VarDeclList_md_node]
+        NoStatement(
+        ) [NoStatement]
+      ) [MethodDecl]
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+    ) [MethodDeclList_node]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  18:33:59,464 - ===============================================================
+ERROR 18:33:59,469 - Main metoda ne sme imati formalne argumente na liniji 1
+INFO  18:33:59,469 - ===============================================================
+ERROR 18:33:59,471 - Parsiranje NIJE uspesno zavrseno!

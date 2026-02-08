@@ -1,0 +1,471 @@
+INFO  15:20:08,217 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  15:20:08,251 - #2 program
+INFO  15:20:08,251 - #41 TestIf
+INFO  15:20:08,251 - #5 const
+INFO  15:20:08,252 - #41 int
+INFO  15:20:08,252 - #41 pi
+INFO  15:20:08,253 - #6 =
+INFO  15:20:08,253 - #43 3
+INFO  15:20:08,253 - #8 ;
+INFO  15:20:08,254 - #3 {
+INFO  15:20:08,255 - #41 int
+INFO  15:20:08,255 - #41 f
+INFO  15:20:08,255 - #12 (
+INFO  15:20:08,255 - #41 int
+INFO  15:20:08,256 - #41 i
+INFO  15:20:08,256 - #13 )
+INFO  15:20:08,257 - #41 int
+INFO  15:20:08,257 - #41 b
+INFO  15:20:08,257 - #8 ;
+INFO  15:20:08,258 - #41 int
+INFO  15:20:08,258 - #41 a
+INFO  15:20:08,259 - #9 [
+INFO  15:20:08,259 - #10 ]
+INFO  15:20:08,259 - #7 ,
+INFO  15:20:08,259 - #41 c
+INFO  15:20:08,259 - #9 [
+INFO  15:20:08,259 - #10 ]
+INFO  15:20:08,259 - #8 ;
+INFO  15:20:08,259 - #41 set
+INFO  15:20:08,259 - #41 s1
+INFO  15:20:08,259 - #7 ,
+INFO  15:20:08,259 - #41 s2
+INFO  15:20:08,259 - #7 ,
+INFO  15:20:08,259 - #41 s3
+INFO  15:20:08,259 - #8 ;
+INFO  15:20:08,259 - #3 {
+INFO  15:20:08,260 - #41 s1
+INFO  15:20:08,260 - #6 =
+INFO  15:20:08,260 - #28 new
+INFO  15:20:08,261 - #41 set
+INFO  15:20:08,261 - #9 [
+INFO  15:20:08,261 - #43 10
+INFO  15:20:08,261 - #10 ]
+INFO  15:20:08,262 - #8 ;
+INFO  15:20:08,262 - #41 s2
+INFO  15:20:08,263 - #6 =
+INFO  15:20:08,263 - #28 new
+INFO  15:20:08,263 - #41 set
+INFO  15:20:08,263 - #9 [
+INFO  15:20:08,263 - #43 5
+INFO  15:20:08,263 - #10 ]
+INFO  15:20:08,263 - #8 ;
+INFO  15:20:08,263 - #41 s3
+INFO  15:20:08,263 - #6 =
+INFO  15:20:08,263 - #28 new
+INFO  15:20:08,263 - #41 set
+INFO  15:20:08,263 - #9 [
+INFO  15:20:08,263 - #43 3
+INFO  15:20:08,263 - #10 ]
+INFO  15:20:08,263 - #8 ;
+INFO  15:20:08,263 - #41 s1
+INFO  15:20:08,263 - #6 =
+INFO  15:20:08,263 - #41 s2
+INFO  15:20:08,263 - #40 union
+INFO  15:20:08,263 - #41 s3
+INFO  15:20:08,264 - #8 ;
+INFO  15:20:08,264 - #18 return
+INFO  15:20:08,265 - #43 1
+INFO  15:20:08,265 - #8 ;
+INFO  15:20:08,265 - #4 }
+INFO  15:20:08,266 - #11 void
+INFO  15:20:08,266 - #41 main
+INFO  15:20:08,266 - #12 (
+INFO  15:20:08,266 - #13 )
+INFO  15:20:08,267 - #41 int
+INFO  15:20:08,267 - #41 a
+INFO  15:20:08,267 - #7 ,
+INFO  15:20:08,267 - #41 b
+INFO  15:20:08,267 - #7 ,
+INFO  15:20:08,267 - #41 c
+INFO  15:20:08,267 - #9 [
+INFO  15:20:08,267 - #10 ]
+INFO  15:20:08,267 - #8 ;
+INFO  15:20:08,267 - #41 char
+INFO  15:20:08,267 - #41 carr
+INFO  15:20:08,267 - #9 [
+INFO  15:20:08,267 - #10 ]
+INFO  15:20:08,267 - #8 ;
+INFO  15:20:08,267 - #3 {
+INFO  15:20:08,267 - #41 a
+INFO  15:20:08,267 - #6 =
+INFO  15:20:08,267 - #43 3
+INFO  15:20:08,267 - #8 ;
+INFO  15:20:08,268 - #41 f
+INFO  15:20:08,268 - #12 (
+INFO  15:20:08,268 - #43 1
+INFO  15:20:08,269 - #13 )
+INFO  15:20:08,270 - #8 ;
+INFO  15:20:08,270 - #4 }
+INFO  15:20:08,270 - #4 }
+INFO  15:20:08,272 - Program(
+  ProgramIDENT(
+   TestIf
+  ) [ProgramIDENT]
+  ConstVarDeclList_const(
+    NoConstVarDeclList(
+    ) [NoConstVarDeclList]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclList1(
+       pi
+        NumCharBoolConstList_num(
+         3
+        ) [NumCharBoolConstList_num]
+      ) [ConstDeclList1]
+      NoConstDeclList2(
+      ) [NoConstDeclList2]
+    ) [ConstDeclList]
+  ) [ConstVarDeclList_const]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_type(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethodSignature_type]
+        FormParsSquare_node(
+          FormPars(
+            FormPars_type(
+              Type(
+               int
+              ) [Type]
+             i
+            ) [FormPars_type]
+            NoFormParsList(
+            ) [NoFormParsList]
+          ) [FormPars]
+        ) [FormParsSquare_node]
+      ) [MethodSignature]
+      VarDeclList_md_node(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarItem_ident(
+           b
+          ) [VarItem_ident]
+          NoVarDeclList1(
+          ) [NoVarDeclList1]
+        ) [VarDeclList]
+        VarDeclList_md_node(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarItem_array(
+             a
+            ) [VarItem_array]
+            VarDeclList1_node(
+              VarItem_array(
+               c
+              ) [VarItem_array]
+              NoVarDeclList1(
+              ) [NoVarDeclList1]
+            ) [VarDeclList1_node]
+          ) [VarDeclList]
+          VarDeclList_md_node(
+            VarDeclList(
+              Type(
+               set
+              ) [Type]
+              VarItem_ident(
+               s1
+              ) [VarItem_ident]
+              VarDeclList1_node(
+                VarItem_ident(
+                 s2
+                ) [VarItem_ident]
+                VarDeclList1_node(
+                  VarItem_ident(
+                   s3
+                  ) [VarItem_ident]
+                  NoVarDeclList1(
+                  ) [NoVarDeclList1]
+                ) [VarDeclList1_node]
+              ) [VarDeclList1_node]
+            ) [VarDeclList]
+            NoVarDeclList_md(
+            ) [NoVarDeclList_md]
+          ) [VarDeclList_md_node]
+        ) [VarDeclList_md_node]
+      ) [VarDeclList_md_node]
+      StatementList_node(
+        Statement_ds(
+          Choose_ds_a(
+            Designator_Ident(
+             s1
+            ) [Designator_Ident]
+            Assignop(
+            ) [Assignop]
+            ExprTerm_node(
+              AddopTermList_term(
+                Term(
+                  MulopList_factor(
+                    NoFactor_minus(
+                      Factor1_new(
+                        Type(
+                         set
+                        ) [Type]
+                        ChooseFactor1_node1(
+                          ExprTerm_node(
+                            AddopTermList_term(
+                              Term(
+                                MulopList_factor(
+                                  NoFactor_minus(
+                                    Factor1_num(
+                                     10
+                                    ) [Factor1_num]
+                                  ) [NoFactor_minus]
+                                ) [MulopList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprTerm_node]
+                        ) [ChooseFactor1_node1]
+                      ) [Factor1_new]
+                    ) [NoFactor_minus]
+                  ) [MulopList_factor]
+                ) [Term]
+              ) [AddopTermList_term]
+            ) [ExprTerm_node]
+          ) [Choose_ds_a]
+        ) [Statement_ds]
+        StatementList_node(
+          Statement_ds(
+            Choose_ds_a(
+              Designator_Ident(
+               s2
+              ) [Designator_Ident]
+              Assignop(
+              ) [Assignop]
+              ExprTerm_node(
+                AddopTermList_term(
+                  Term(
+                    MulopList_factor(
+                      NoFactor_minus(
+                        Factor1_new(
+                          Type(
+                           set
+                          ) [Type]
+                          ChooseFactor1_node1(
+                            ExprTerm_node(
+                              AddopTermList_term(
+                                Term(
+                                  MulopList_factor(
+                                    NoFactor_minus(
+                                      Factor1_num(
+                                       5
+                                      ) [Factor1_num]
+                                    ) [NoFactor_minus]
+                                  ) [MulopList_factor]
+                                ) [Term]
+                              ) [AddopTermList_term]
+                            ) [ExprTerm_node]
+                          ) [ChooseFactor1_node1]
+                        ) [Factor1_new]
+                      ) [NoFactor_minus]
+                    ) [MulopList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprTerm_node]
+            ) [Choose_ds_a]
+          ) [Statement_ds]
+          StatementList_node(
+            Statement_ds(
+              Choose_ds_a(
+                Designator_Ident(
+                 s3
+                ) [Designator_Ident]
+                Assignop(
+                ) [Assignop]
+                ExprTerm_node(
+                  AddopTermList_term(
+                    Term(
+                      MulopList_factor(
+                        NoFactor_minus(
+                          Factor1_new(
+                            Type(
+                             set
+                            ) [Type]
+                            ChooseFactor1_node1(
+                              ExprTerm_node(
+                                AddopTermList_term(
+                                  Term(
+                                    MulopList_factor(
+                                      NoFactor_minus(
+                                        Factor1_num(
+                                         3
+                                        ) [Factor1_num]
+                                      ) [NoFactor_minus]
+                                    ) [MulopList_factor]
+                                  ) [Term]
+                                ) [AddopTermList_term]
+                              ) [ExprTerm_node]
+                            ) [ChooseFactor1_node1]
+                          ) [Factor1_new]
+                        ) [NoFactor_minus]
+                      ) [MulopList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprTerm_node]
+              ) [Choose_ds_a]
+            ) [Statement_ds]
+            StatementList_node(
+              Statement_ds(
+                DesignatorStatement2(
+                  Designator_Ident(
+                   s1
+                  ) [Designator_Ident]
+                  Assignop(
+                  ) [Assignop]
+                  Designator_Ident(
+                   s2
+                  ) [Designator_Ident]
+                  Setop(
+                  ) [Setop]
+                  Designator_Ident(
+                   s3
+                  ) [Designator_Ident]
+                ) [DesignatorStatement2]
+              ) [Statement_ds]
+              StatementList_node(
+                Statement_return(
+                  ExprSquare_node(
+                    ExprTerm_node(
+                      AddopTermList_term(
+                        Term(
+                          MulopList_factor(
+                            NoFactor_minus(
+                              Factor1_num(
+                               1
+                              ) [Factor1_num]
+                            ) [NoFactor_minus]
+                          ) [MulopList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprTerm_node]
+                  ) [ExprSquare_node]
+                ) [Statement_return]
+                NoStatement(
+                ) [NoStatement]
+              ) [StatementList_node]
+            ) [StatementList_node]
+          ) [StatementList_node]
+        ) [StatementList_node]
+      ) [StatementList_node]
+    ) [MethodDecl]
+    MethodDeclList_node(
+      MethodDecl(
+        MethodSignature(
+          MethodSignature_void(
+           main
+          ) [MethodSignature_void]
+          NoFormParsSquare(
+          ) [NoFormParsSquare]
+        ) [MethodSignature]
+        VarDeclList_md_node(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarItem_ident(
+             a
+            ) [VarItem_ident]
+            VarDeclList1_node(
+              VarItem_ident(
+               b
+              ) [VarItem_ident]
+              VarDeclList1_node(
+                VarItem_array(
+                 c
+                ) [VarItem_array]
+                NoVarDeclList1(
+                ) [NoVarDeclList1]
+              ) [VarDeclList1_node]
+            ) [VarDeclList1_node]
+          ) [VarDeclList]
+          VarDeclList_md_node(
+            VarDeclList(
+              Type(
+               char
+              ) [Type]
+              VarItem_array(
+               carr
+              ) [VarItem_array]
+              NoVarDeclList1(
+              ) [NoVarDeclList1]
+            ) [VarDeclList]
+            NoVarDeclList_md(
+            ) [NoVarDeclList_md]
+          ) [VarDeclList_md_node]
+        ) [VarDeclList_md_node]
+        StatementList_node(
+          Statement_ds(
+            Choose_ds_a(
+              Designator_Ident(
+               a
+              ) [Designator_Ident]
+              Assignop(
+              ) [Assignop]
+              ExprTerm_node(
+                AddopTermList_term(
+                  Term(
+                    MulopList_factor(
+                      NoFactor_minus(
+                        Factor1_num(
+                         3
+                        ) [Factor1_num]
+                      ) [NoFactor_minus]
+                    ) [MulopList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprTerm_node]
+            ) [Choose_ds_a]
+          ) [Statement_ds]
+          StatementList_node(
+            Statement_ds(
+              Choose_ds_p(
+                Designator_Ident(
+                 f
+                ) [Designator_Ident]
+                ActParsSquare_node(
+                  ActParsBegin(
+                  ) [ActParsBegin]
+                  ExprList_node2(
+                    ActPars(
+                      ExprTerm_node(
+                        AddopTermList_term(
+                          Term(
+                            MulopList_factor(
+                              NoFactor_minus(
+                                Factor1_num(
+                                 1
+                                ) [Factor1_num]
+                              ) [NoFactor_minus]
+                            ) [MulopList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprTerm_node]
+                    ) [ActPars]
+                  ) [ExprList_node2]
+                ) [ActParsSquare_node]
+              ) [Choose_ds_p]
+            ) [Statement_ds]
+            NoStatement(
+            ) [NoStatement]
+          ) [StatementList_node]
+        ) [StatementList_node]
+      ) [MethodDecl]
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+    ) [MethodDeclList_node]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  15:20:08,273 - ========================================================================
+INFO  15:20:08,280 - ========================================================================
+INFO  15:20:08,281 - Generating bytecode file: C:\pp1domaci\workspace\MJCompiler\test\program.obj
+INFO  15:20:08,287 - Parsiranje uspesno zavrseno!

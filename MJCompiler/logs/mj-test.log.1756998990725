@@ -1,0 +1,121 @@
+INFO  17:16:17,942 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:16:17,979 - #2 program
+INFO  17:16:17,980 - #41 Keske
+INFO  17:16:17,980 - #5 const
+INFO  17:16:17,980 - #41 int
+INFO  17:16:17,982 - #41 pi
+INFO  17:16:17,984 - #6 =
+INFO  17:16:17,984 - #43 3
+INFO  17:16:17,984 - #8 ;
+INFO  17:16:17,985 - #5 const
+INFO  17:16:17,986 - #41 int
+INFO  17:16:17,986 - #41 g
+INFO  17:16:17,986 - #6 =
+INFO  17:16:17,986 - #43 10
+INFO  17:16:17,986 - #8 ;
+INFO  17:16:17,986 - #41 char
+INFO  17:16:17,986 - #41 x
+INFO  17:16:17,986 - #7 ,
+INFO  17:16:17,986 - #41 y
+INFO  17:16:17,986 - #9 [
+INFO  17:16:17,986 - #10 ]
+INFO  17:16:17,986 - #8 ;
+INFO  17:16:17,987 - #3 {
+INFO  17:16:17,987 - #11 void
+INFO  17:16:17,995 - #41 main
+INFO  17:16:17,996 - #12 (
+INFO  17:16:17,996 - #13 )
+INFO  17:16:17,996 - #41 int
+INFO  17:16:17,997 - #41 a
+INFO  17:16:17,997 - #8 ;
+INFO  17:16:17,997 - #3 {
+INFO  17:16:17,998 - #4 }
+INFO  17:16:17,998 - #4 }
+INFO  17:16:17,999 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_var(
+    ConstVarDeclList_const(
+      ConstVarDeclList_const(
+        NoConstVarDeclList(
+        ) [NoConstVarDeclList]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclList1(
+           pi
+            NumCharBoolConstList_num(
+             3
+            ) [NumCharBoolConstList_num]
+          ) [ConstDeclList1]
+          NoConstDeclList2(
+          ) [NoConstDeclList2]
+        ) [ConstDeclList]
+      ) [ConstVarDeclList_const]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclList1(
+         g
+          NumCharBoolConstList_num(
+           10
+          ) [NumCharBoolConstList_num]
+        ) [ConstDeclList1]
+        NoConstDeclList2(
+        ) [NoConstDeclList2]
+      ) [ConstDeclList]
+    ) [ConstVarDeclList_const]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarItem_ident(
+       x
+      ) [VarItem_ident]
+      VarDeclList1_node(
+        VarItem_array(
+         y
+        ) [VarItem_array]
+        NoVarDeclList1(
+        ) [NoVarDeclList1]
+      ) [VarDeclList1_node]
+    ) [VarDeclList]
+  ) [ConstVarDeclList_var]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+        ) [MethodSignature_void]
+        MethodSignatureIDENT(
+         main
+        ) [MethodSignatureIDENT]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      VarDeclList_md_node(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarItem_ident(
+           a
+          ) [VarItem_ident]
+          NoVarDeclList1(
+          ) [NoVarDeclList1]
+        ) [VarDeclList]
+        NoVarDeclList_md(
+        ) [NoVarDeclList_md]
+      ) [VarDeclList_md_node]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  17:16:18,000 - ===============================================================
+INFO  17:16:18,005 - ===============================================================
+INFO  17:16:18,006 - Parsiranje uspesno zavrseno!

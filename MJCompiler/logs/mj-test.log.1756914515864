@@ -1,0 +1,39 @@
+INFO  17:36:11,906 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:36:11,938 - #2 program
+INFO  17:36:11,938 - #41 Keske
+INFO  17:36:11,938 - #3 {
+INFO  17:36:11,940 - #11 void
+INFO  17:36:11,940 - #41 main
+INFO  17:36:11,941 - #12 (
+INFO  17:36:11,942 - #13 )
+INFO  17:36:11,942 - #3 {
+INFO  17:36:11,944 - #4 }
+INFO  17:36:11,945 - #4 }
+INFO  17:36:11,946 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  NoConstVarDeclList(
+  ) [NoConstVarDeclList]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+        ) [MethodSignature_void]
+        MethodSignatureIDENT(
+         main
+        ) [MethodSignatureIDENT]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      NoVarDeclList_md(
+      ) [NoVarDeclList_md]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  17:36:11,953 - ===============================================================
+INFO  17:36:11,955 - ===============================================================

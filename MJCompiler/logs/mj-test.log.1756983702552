@@ -1,0 +1,62 @@
+INFO  13:01:11,590 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:01:11,623 - #2 program
+INFO  13:01:11,623 - #41 Keske
+INFO  13:01:11,623 - #5 const
+INFO  13:01:11,624 - #41 byte
+INFO  13:01:11,624 - #41 pi
+INFO  13:01:11,624 - #6 =
+INFO  13:01:11,624 - #43 3
+INFO  13:01:11,624 - #8 ;
+INFO  13:01:11,625 - #3 {
+INFO  13:01:11,626 - #11 void
+INFO  13:01:11,626 - #41 main
+INFO  13:01:11,626 - #12 (
+INFO  13:01:11,627 - #13 )
+INFO  13:01:11,628 - #3 {
+INFO  13:01:11,629 - #4 }
+INFO  13:01:11,629 - #4 }
+INFO  13:01:11,632 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_const(
+    NoConstVarDeclList(
+    ) [NoConstVarDeclList]
+    ConstDeclList(
+      Type(
+       byte
+      ) [Type]
+      ConstDeclList1(
+       pi
+        NumCharBoolConstList_num(
+         3
+        ) [NumCharBoolConstList_num]
+      ) [ConstDeclList1]
+      NoConstDeclList2(
+      ) [NoConstDeclList2]
+    ) [ConstDeclList]
+  ) [ConstVarDeclList_const]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+        ) [MethodSignature_void]
+        MethodSignatureIDENT(
+         main
+        ) [MethodSignatureIDENT]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      NoVarDeclList_md(
+      ) [NoVarDeclList_md]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  13:01:11,633 - ===============================================================
+ERROR 13:01:11,639 - Nepostojeci tip podataka: byte na liniji 3
+INFO  13:01:11,639 - ===============================================================
+ERROR 13:01:11,639 - Parsiranje NIJE uspesno zavrseno!

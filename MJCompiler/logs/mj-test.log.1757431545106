@@ -1,0 +1,9 @@
+INFO  17:25:25,893 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:25:25,933 - #2 program
+INFO  17:25:25,933 - #41 Keske
+INFO  17:25:25,933 - #5 const
+INFO  17:25:25,934 - #41 pi
+INFO  17:25:25,934 - #6 =
+ERROR 17:25:25,934 - 
+Sintaksna greska na liniji 3
+ERROR 17:25:25,934 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

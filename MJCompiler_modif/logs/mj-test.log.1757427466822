@@ -1,0 +1,47 @@
+INFO  16:17:05,899 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:17:05,941 - #2 program
+INFO  16:17:05,941 - #41 test301
+INFO  16:17:05,941 - #5 const
+INFO  16:17:05,942 - #41 int
+INFO  16:17:05,942 - #41 nula
+INFO  16:17:05,943 - #6 =
+INFO  16:17:05,943 - #43 0
+INFO  16:17:05,943 - #8 ;
+INFO  16:17:05,944 - #5 const
+INFO  16:17:05,945 - #41 int
+INFO  16:17:05,945 - #41 jedan
+INFO  16:17:05,945 - #6 =
+INFO  16:17:05,945 - #43 1
+INFO  16:17:05,945 - #8 ;
+INFO  16:17:05,945 - #5 const
+INFO  16:17:05,945 - #41 int
+INFO  16:17:05,945 - #41 pet
+INFO  16:17:05,945 - #6 =
+INFO  16:17:05,945 - #43 5
+INFO  16:17:05,945 - #8 ;
+INFO  16:17:05,945 - #41 int
+INFO  16:17:05,945 - #41 niz
+INFO  16:17:05,946 - #9 [
+INFO  16:17:05,946 - #10 ]
+INFO  16:17:05,946 - #8 ;
+INFO  16:17:05,947 - #41 char
+INFO  16:17:05,947 - #41 nizch
+INFO  16:17:05,947 - #9 [
+INFO  16:17:05,947 - #10 ]
+INFO  16:17:05,947 - #8 ;
+INFO  16:17:05,947 - #41 int
+INFO  16:17:05,948 - #41 a
+INFO  16:17:05,948 - #8 ;
+INFO  16:17:05,948 - #41 set
+INFO  16:17:05,948 - #41 s1
+INFO  16:17:05,948 - #7 ,
+INFO  16:17:05,948 - #41 s2
+INFO  16:17:05,948 - #7 ,
+INFO  16:17:05,948 - #41 s3
+INFO  16:17:05,948 - #8 ;
+INFO  16:17:05,948 - #3 {
+INFO  16:17:05,948 - #41 f1
+INFO  16:17:05,948 - #12 (
+ERROR 16:17:05,948 - 
+Sintaksna greska na liniji 17
+ERROR 16:17:05,948 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 17

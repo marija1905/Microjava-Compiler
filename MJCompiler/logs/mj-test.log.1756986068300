@@ -1,0 +1,83 @@
+INFO  13:40:56,519 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:40:56,551 - #2 program
+INFO  13:40:56,552 - #41 Keske
+INFO  13:40:56,552 - #5 const
+INFO  13:40:56,553 - #41 int
+INFO  13:40:56,553 - #41 pi
+INFO  13:40:56,554 - #6 =
+INFO  13:40:56,554 - #43 3
+INFO  13:40:56,554 - #8 ;
+INFO  13:40:56,555 - #5 const
+INFO  13:40:56,556 - #41 int
+INFO  13:40:56,556 - #41 pi
+INFO  13:40:56,556 - #6 =
+INFO  13:40:56,556 - #42 a
+INFO  13:40:56,556 - #8 ;
+INFO  13:40:56,556 - #3 {
+INFO  13:40:56,556 - #11 void
+INFO  13:40:56,556 - #41 main
+INFO  13:40:56,557 - #12 (
+INFO  13:40:56,558 - #13 )
+INFO  13:40:56,558 - #3 {
+INFO  13:40:56,559 - #4 }
+INFO  13:40:56,560 - #4 }
+INFO  13:40:56,568 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_const(
+    ConstVarDeclList_const(
+      NoConstVarDeclList(
+      ) [NoConstVarDeclList]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclList1(
+         pi
+          NumCharBoolConstList_num(
+           3
+          ) [NumCharBoolConstList_num]
+        ) [ConstDeclList1]
+        NoConstDeclList2(
+        ) [NoConstDeclList2]
+      ) [ConstDeclList]
+    ) [ConstVarDeclList_const]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclList1(
+       pi
+        NumCharBoolConstList_char(
+         a
+        ) [NumCharBoolConstList_char]
+      ) [ConstDeclList1]
+      NoConstDeclList2(
+      ) [NoConstDeclList2]
+    ) [ConstDeclList]
+  ) [ConstVarDeclList_const]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+        ) [MethodSignature_void]
+        MethodSignatureIDENT(
+         main
+        ) [MethodSignatureIDENT]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      NoVarDeclList_md(
+      ) [NoVarDeclList_md]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  13:40:56,568 - ===============================================================
+ERROR 13:40:56,573 - Dvostruka definicija konstante: pi na liniji 4
+INFO  13:40:56,573 - ===============================================================
+ERROR 13:40:56,573 - Parsiranje NIJE uspesno zavrseno!

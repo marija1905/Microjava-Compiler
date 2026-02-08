@@ -1,0 +1,83 @@
+INFO  13:44:05,452 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:44:05,486 - #2 program
+INFO  13:44:05,486 - #41 Keske
+INFO  13:44:05,486 - #5 const
+INFO  13:44:05,488 - #41 int
+INFO  13:44:05,488 - #41 pi
+INFO  13:44:05,488 - #6 =
+INFO  13:44:05,489 - #43 3
+INFO  13:44:05,489 - #8 ;
+INFO  13:44:05,490 - #5 const
+INFO  13:44:05,490 - #41 int
+INFO  13:44:05,490 - #41 g
+INFO  13:44:05,490 - #6 =
+INFO  13:44:05,490 - #42 a
+INFO  13:44:05,490 - #8 ;
+INFO  13:44:05,490 - #3 {
+INFO  13:44:05,491 - #11 void
+INFO  13:44:05,491 - #41 main
+INFO  13:44:05,491 - #12 (
+INFO  13:44:05,492 - #13 )
+INFO  13:44:05,492 - #3 {
+INFO  13:44:05,493 - #4 }
+INFO  13:44:05,493 - #4 }
+INFO  13:44:05,495 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_const(
+    ConstVarDeclList_const(
+      NoConstVarDeclList(
+      ) [NoConstVarDeclList]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclList1(
+         pi
+          NumCharBoolConstList_num(
+           3
+          ) [NumCharBoolConstList_num]
+        ) [ConstDeclList1]
+        NoConstDeclList2(
+        ) [NoConstDeclList2]
+      ) [ConstDeclList]
+    ) [ConstVarDeclList_const]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclList1(
+       g
+        NumCharBoolConstList_char(
+         a
+        ) [NumCharBoolConstList_char]
+      ) [ConstDeclList1]
+      NoConstDeclList2(
+      ) [NoConstDeclList2]
+    ) [ConstDeclList]
+  ) [ConstVarDeclList_const]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+        ) [MethodSignature_void]
+        MethodSignatureIDENT(
+         main
+        ) [MethodSignatureIDENT]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      NoVarDeclList_md(
+      ) [NoVarDeclList_md]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  13:44:05,495 - ===============================================================
+ERROR 13:44:05,499 - Pogresna dodela vrednosti konstanti: g na liniji 4
+INFO  13:44:05,499 - ===============================================================
+ERROR 13:44:05,499 - Parsiranje NIJE uspesno zavrseno!

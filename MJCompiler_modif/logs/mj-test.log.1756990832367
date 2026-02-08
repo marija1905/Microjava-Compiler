@@ -1,0 +1,82 @@
+INFO  14:59:50,400 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  14:59:50,434 - #2 program
+INFO  14:59:50,434 - #41 Keske
+INFO  14:59:50,434 - #5 const
+INFO  14:59:50,435 - #41 int
+INFO  14:59:50,435 - #41 pi
+INFO  14:59:50,436 - #6 =
+INFO  14:59:50,436 - #43 3
+INFO  14:59:50,436 - #8 ;
+INFO  14:59:50,437 - #5 const
+INFO  14:59:50,438 - #41 int
+INFO  14:59:50,438 - #41 g
+INFO  14:59:50,438 - #6 =
+INFO  14:59:50,438 - #43 10
+INFO  14:59:50,438 - #8 ;
+INFO  14:59:50,438 - #3 {
+INFO  14:59:50,438 - #11 void
+INFO  14:59:50,438 - #41 main
+INFO  14:59:50,439 - #12 (
+INFO  14:59:50,439 - #13 )
+INFO  14:59:50,440 - #3 {
+INFO  14:59:50,441 - #4 }
+INFO  14:59:50,441 - #4 }
+INFO  14:59:50,443 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_const(
+    ConstVarDeclList_const(
+      NoConstVarDeclList(
+      ) [NoConstVarDeclList]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclList1(
+         pi
+          NumCharBoolConstList_num(
+           3
+          ) [NumCharBoolConstList_num]
+        ) [ConstDeclList1]
+        NoConstDeclList2(
+        ) [NoConstDeclList2]
+      ) [ConstDeclList]
+    ) [ConstVarDeclList_const]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclList1(
+       g
+        NumCharBoolConstList_num(
+         10
+        ) [NumCharBoolConstList_num]
+      ) [ConstDeclList1]
+      NoConstDeclList2(
+      ) [NoConstDeclList2]
+    ) [ConstDeclList]
+  ) [ConstVarDeclList_const]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+        ) [MethodSignature_void]
+        MethodSignatureIDENT(
+         main
+        ) [MethodSignatureIDENT]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      NoVarDeclList_md(
+      ) [NoVarDeclList_md]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  14:59:50,443 - ===============================================================
+INFO  14:59:50,447 - ===============================================================
+INFO  14:59:50,448 - Parsiranje uspesno zavrseno!

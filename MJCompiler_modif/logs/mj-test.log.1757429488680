@@ -1,0 +1,346 @@
+INFO  16:51:05,082 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:51:05,131 - #2 program
+INFO  16:51:05,131 - #41 test301
+INFO  16:51:05,131 - #5 const
+INFO  16:51:05,132 - #41 int
+INFO  16:51:05,132 - #41 nula
+INFO  16:51:05,132 - #6 =
+INFO  16:51:05,132 - #43 0
+INFO  16:51:05,133 - #8 ;
+INFO  16:51:05,133 - #5 const
+INFO  16:51:05,134 - #41 int
+INFO  16:51:05,134 - #41 jedan
+INFO  16:51:05,134 - #6 =
+INFO  16:51:05,134 - #43 1
+INFO  16:51:05,134 - #8 ;
+INFO  16:51:05,134 - #5 const
+INFO  16:51:05,134 - #41 int
+INFO  16:51:05,134 - #41 pet
+INFO  16:51:05,134 - #6 =
+INFO  16:51:05,134 - #43 5
+INFO  16:51:05,134 - #8 ;
+INFO  16:51:05,134 - #41 int
+INFO  16:51:05,134 - #41 niz
+INFO  16:51:05,134 - #9 [
+INFO  16:51:05,134 - #10 ]
+INFO  16:51:05,135 - #8 ;
+INFO  16:51:05,135 - #41 char
+INFO  16:51:05,136 - #41 nizch
+INFO  16:51:05,136 - #9 [
+INFO  16:51:05,136 - #10 ]
+INFO  16:51:05,136 - #8 ;
+INFO  16:51:05,137 - #41 int
+INFO  16:51:05,137 - #41 a
+INFO  16:51:05,137 - #8 ;
+INFO  16:51:05,137 - #41 set
+INFO  16:51:05,137 - #41 s1
+INFO  16:51:05,137 - #7 ,
+INFO  16:51:05,137 - #41 s2
+INFO  16:51:05,137 - #7 ,
+INFO  16:51:05,137 - #41 s3
+INFO  16:51:05,137 - #8 ;
+INFO  16:51:05,137 - #3 {
+INFO  16:51:05,137 - #11 void
+INFO  16:51:05,137 - #41 main
+INFO  16:51:05,137 - #12 (
+INFO  16:51:05,137 - #13 )
+INFO  16:51:05,138 - #3 {
+INFO  16:51:05,139 - #4 }
+INFO  16:51:05,139 - #11 void
+INFO  16:51:05,140 - #41 f1
+INFO  16:51:05,140 - #12 (
+INFO  16:51:05,140 - #41 int
+INFO  16:51:05,140 - #41 a
+INFO  16:51:05,140 - #7 ,
+INFO  16:51:05,140 - #41 int
+INFO  16:51:05,140 - #41 b
+INFO  16:51:05,140 - #9 [
+INFO  16:51:05,140 - #10 ]
+INFO  16:51:05,141 - #13 )
+INFO  16:51:05,142 - #41 set
+INFO  16:51:05,142 - #41 s4
+INFO  16:51:05,142 - #8 ;
+INFO  16:51:05,142 - #3 {
+INFO  16:51:05,142 - #41 add
+INFO  16:51:05,142 - #12 (
+INFO  16:51:05,142 - #41 s4
+INFO  16:51:05,142 - #7 ,
+INFO  16:51:05,144 - #43 3
+INFO  16:51:05,144 - #13 )
+INFO  16:51:05,144 - #8 ;
+INFO  16:51:05,144 - #41 b
+INFO  16:51:05,144 - #6 =
+INFO  16:51:05,144 - #28 new
+INFO  16:51:05,145 - #41 set
+INFO  16:51:05,145 - #9 [
+INFO  16:51:05,145 - #43 5
+INFO  16:51:05,145 - #10 ]
+INFO  16:51:05,145 - #8 ;
+INFO  16:51:05,145 - #4 }
+INFO  16:51:05,145 - #4 }
+INFO  16:51:05,147 - Program(
+  ProgramIDENT(
+   test301
+  ) [ProgramIDENT]
+  ConstVarDeclList_var(
+    ConstVarDeclList_var(
+      ConstVarDeclList_var(
+        ConstVarDeclList_var(
+          ConstVarDeclList_const(
+            ConstVarDeclList_const(
+              ConstVarDeclList_const(
+                NoConstVarDeclList(
+                ) [NoConstVarDeclList]
+                ConstDeclList(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclList1(
+                   nula
+                    NumCharBoolConstList_num(
+                     0
+                    ) [NumCharBoolConstList_num]
+                  ) [ConstDeclList1]
+                  NoConstDeclList2(
+                  ) [NoConstDeclList2]
+                ) [ConstDeclList]
+              ) [ConstVarDeclList_const]
+              ConstDeclList(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclList1(
+                 jedan
+                  NumCharBoolConstList_num(
+                   1
+                  ) [NumCharBoolConstList_num]
+                ) [ConstDeclList1]
+                NoConstDeclList2(
+                ) [NoConstDeclList2]
+              ) [ConstDeclList]
+            ) [ConstVarDeclList_const]
+            ConstDeclList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclList1(
+               pet
+                NumCharBoolConstList_num(
+                 5
+                ) [NumCharBoolConstList_num]
+              ) [ConstDeclList1]
+              NoConstDeclList2(
+              ) [NoConstDeclList2]
+            ) [ConstDeclList]
+          ) [ConstVarDeclList_const]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarItem_array(
+             niz
+            ) [VarItem_array]
+            NoVarDeclList1(
+            ) [NoVarDeclList1]
+          ) [VarDeclList]
+        ) [ConstVarDeclList_var]
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarItem_array(
+           nizch
+          ) [VarItem_array]
+          NoVarDeclList1(
+          ) [NoVarDeclList1]
+        ) [VarDeclList]
+      ) [ConstVarDeclList_var]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarItem_ident(
+         a
+        ) [VarItem_ident]
+        NoVarDeclList1(
+        ) [NoVarDeclList1]
+      ) [VarDeclList]
+    ) [ConstVarDeclList_var]
+    VarDeclList(
+      Type(
+       set
+      ) [Type]
+      VarItem_ident(
+       s1
+      ) [VarItem_ident]
+      VarDeclList1_node(
+        VarItem_ident(
+         s2
+        ) [VarItem_ident]
+        VarDeclList1_node(
+          VarItem_ident(
+           s3
+          ) [VarItem_ident]
+          NoVarDeclList1(
+          ) [NoVarDeclList1]
+        ) [VarDeclList1_node]
+      ) [VarDeclList1_node]
+    ) [VarDeclList]
+  ) [ConstVarDeclList_var]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+         main
+        ) [MethodSignature_void]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      NoVarDeclList_md(
+      ) [NoVarDeclList_md]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    MethodDeclList_node(
+      MethodDecl(
+        MethodSignature(
+          MethodSignature_void(
+           f1
+          ) [MethodSignature_void]
+          FormParsSquare_node(
+            FormPars(
+              FormPars_type(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [FormPars_type]
+              FormParsList_node(
+                FormPars_array(
+                  Type(
+                   int
+                  ) [Type]
+                 b
+                ) [FormPars_array]
+                NoFormParsList(
+                ) [NoFormParsList]
+              ) [FormParsList_node]
+            ) [FormPars]
+          ) [FormParsSquare_node]
+        ) [MethodSignature]
+        VarDeclList_md_node(
+          VarDeclList(
+            Type(
+             set
+            ) [Type]
+            VarItem_ident(
+             s4
+            ) [VarItem_ident]
+            NoVarDeclList1(
+            ) [NoVarDeclList1]
+          ) [VarDeclList]
+          NoVarDeclList_md(
+          ) [NoVarDeclList_md]
+        ) [VarDeclList_md_node]
+        StatementList_node(
+          Statement_ds(
+            Choose_ds_p(
+              Designator_Ident(
+               add
+              ) [Designator_Ident]
+              ActParsSquare_node(
+                ActParsBegin(
+                ) [ActParsBegin]
+                ExprList_node1(
+                  ExprList_node2(
+                    ActPars(
+                      ExprTerm_node(
+                        AddopTermList_term(
+                          Term(
+                            MulopList_factor(
+                              NoFactor_minus(
+                                Factor1Square_des(
+                                  Designator_Ident(
+                                   s4
+                                  ) [Designator_Ident]
+                                ) [Factor1Square_des]
+                              ) [NoFactor_minus]
+                            ) [MulopList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprTerm_node]
+                    ) [ActPars]
+                  ) [ExprList_node2]
+                  ActPars(
+                    ExprTerm_node(
+                      AddopTermList_term(
+                        Term(
+                          MulopList_factor(
+                            NoFactor_minus(
+                              Factor1_num(
+                               3
+                              ) [Factor1_num]
+                            ) [NoFactor_minus]
+                          ) [MulopList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprTerm_node]
+                  ) [ActPars]
+                ) [ExprList_node1]
+              ) [ActParsSquare_node]
+            ) [Choose_ds_p]
+          ) [Statement_ds]
+          StatementList_node(
+            Statement_ds(
+              Choose_ds_a(
+                Designator_Ident(
+                 b
+                ) [Designator_Ident]
+                Assignop(
+                ) [Assignop]
+                ExprTerm_node(
+                  AddopTermList_term(
+                    Term(
+                      MulopList_factor(
+                        NoFactor_minus(
+                          Factor1_new(
+                            Type(
+                             set
+                            ) [Type]
+                            ChooseFactor1_node1(
+                              ExprTerm_node(
+                                AddopTermList_term(
+                                  Term(
+                                    MulopList_factor(
+                                      NoFactor_minus(
+                                        Factor1_num(
+                                         5
+                                        ) [Factor1_num]
+                                      ) [NoFactor_minus]
+                                    ) [MulopList_factor]
+                                  ) [Term]
+                                ) [AddopTermList_term]
+                              ) [ExprTerm_node]
+                            ) [ChooseFactor1_node1]
+                          ) [Factor1_new]
+                        ) [NoFactor_minus]
+                      ) [MulopList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprTerm_node]
+              ) [Choose_ds_a]
+            ) [Statement_ds]
+            NoStatement(
+            ) [NoStatement]
+          ) [StatementList_node]
+        ) [StatementList_node]
+      ) [MethodDecl]
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+    ) [MethodDeclList_node]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  16:51:05,147 - ========================================================================
+ERROR 16:51:05,155 - Neadekvatna dodela vrednosti u promenljivu: b na liniji 21
+INFO  16:51:05,155 - ========================================================================
+ERROR 16:51:05,155 - Parsiranje NIJE uspesno zavrseno!

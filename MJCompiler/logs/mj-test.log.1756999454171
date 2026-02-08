@@ -1,0 +1,146 @@
+INFO  17:23:54,177 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:23:54,219 - #2 program
+INFO  17:23:54,219 - #41 Keske
+INFO  17:23:54,219 - #5 const
+INFO  17:23:54,221 - #41 int
+INFO  17:23:54,221 - #41 pi
+INFO  17:23:54,221 - #6 =
+INFO  17:23:54,221 - #43 3
+INFO  17:23:54,222 - #8 ;
+INFO  17:23:54,223 - #5 const
+INFO  17:23:54,224 - #41 int
+INFO  17:23:54,224 - #41 g
+INFO  17:23:54,224 - #6 =
+INFO  17:23:54,224 - #43 10
+INFO  17:23:54,224 - #8 ;
+INFO  17:23:54,224 - #41 char
+INFO  17:23:54,224 - #41 x
+INFO  17:23:54,224 - #7 ,
+INFO  17:23:54,224 - #41 y
+INFO  17:23:54,224 - #9 [
+INFO  17:23:54,224 - #10 ]
+INFO  17:23:54,224 - #8 ;
+INFO  17:23:54,225 - #3 {
+INFO  17:23:54,226 - #11 void
+INFO  17:23:54,227 - #41 mainn
+INFO  17:23:54,228 - #12 (
+INFO  17:23:54,229 - #13 )
+INFO  17:23:54,229 - #41 int
+INFO  17:23:54,230 - #41 a
+INFO  17:23:54,230 - #7 ,
+INFO  17:23:54,230 - #41 b
+INFO  17:23:54,230 - #9 [
+INFO  17:23:54,230 - #10 ]
+INFO  17:23:54,230 - #8 ;
+INFO  17:23:54,230 - #41 int
+INFO  17:23:54,230 - #41 x
+INFO  17:23:54,230 - #8 ;
+INFO  17:23:54,230 - #3 {
+INFO  17:23:54,232 - #4 }
+INFO  17:23:54,233 - #4 }
+INFO  17:23:54,235 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_var(
+    ConstVarDeclList_const(
+      ConstVarDeclList_const(
+        NoConstVarDeclList(
+        ) [NoConstVarDeclList]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclList1(
+           pi
+            NumCharBoolConstList_num(
+             3
+            ) [NumCharBoolConstList_num]
+          ) [ConstDeclList1]
+          NoConstDeclList2(
+          ) [NoConstDeclList2]
+        ) [ConstDeclList]
+      ) [ConstVarDeclList_const]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclList1(
+         g
+          NumCharBoolConstList_num(
+           10
+          ) [NumCharBoolConstList_num]
+        ) [ConstDeclList1]
+        NoConstDeclList2(
+        ) [NoConstDeclList2]
+      ) [ConstDeclList]
+    ) [ConstVarDeclList_const]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarItem_ident(
+       x
+      ) [VarItem_ident]
+      VarDeclList1_node(
+        VarItem_array(
+         y
+        ) [VarItem_array]
+        NoVarDeclList1(
+        ) [NoVarDeclList1]
+      ) [VarDeclList1_node]
+    ) [VarDeclList]
+  ) [ConstVarDeclList_var]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+        ) [MethodSignature_void]
+        MethodSignatureIDENT(
+         mainn
+        ) [MethodSignatureIDENT]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      VarDeclList_md_node(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarItem_ident(
+           a
+          ) [VarItem_ident]
+          VarDeclList1_node(
+            VarItem_array(
+             b
+            ) [VarItem_array]
+            NoVarDeclList1(
+            ) [NoVarDeclList1]
+          ) [VarDeclList1_node]
+        ) [VarDeclList]
+        VarDeclList_md_node(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarItem_ident(
+             x
+            ) [VarItem_ident]
+            NoVarDeclList1(
+            ) [NoVarDeclList1]
+          ) [VarDeclList]
+          NoVarDeclList_md(
+          ) [NoVarDeclList_md]
+        ) [VarDeclList_md_node]
+      ) [VarDeclList_md_node]
+      NoStatement(
+      ) [NoStatement]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  17:23:54,235 - ===============================================================
+ERROR 17:23:54,239 - Ne postoji main metoda  na liniji 1
+INFO  17:23:54,239 - ===============================================================
+ERROR 17:23:54,240 - Parsiranje NIJE uspesno zavrseno!

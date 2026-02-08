@@ -1,0 +1,19 @@
+package rs.ac.bg.etf.pp1;
+
+import rs.ac.bg.etf.pp1.ast.*;
+import rs.etf.pp1.mj.runtime.Code;
+
+public class CodeGenerator extends VisitorAdaptor {
+	private int mainPC;
+	
+	public int getMainPc() {
+		return this.mainPC;
+	}
+	
+	@Override
+	public void visit(MethodSignature_void methSign) {
+		Code.put(Code.enter);
+		Code.put(); // (b1) enter b1, b2
+		Code.put(); // (b2) enter b1, b2
+	}
+}

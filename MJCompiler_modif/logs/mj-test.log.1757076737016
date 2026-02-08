@@ -1,0 +1,185 @@
+INFO  14:51:55,217 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  14:51:55,255 - #2 program
+INFO  14:51:55,255 - #41 Keske
+INFO  14:51:55,255 - #5 const
+INFO  14:51:55,256 - #41 int
+INFO  14:51:55,256 - #41 pi
+INFO  14:51:55,257 - #6 =
+INFO  14:51:55,257 - #43 3
+INFO  14:51:55,257 - #8 ;
+INFO  14:51:55,258 - #5 const
+INFO  14:51:55,259 - #41 int
+INFO  14:51:55,259 - #41 g
+INFO  14:51:55,259 - #6 =
+INFO  14:51:55,259 - #43 10
+INFO  14:51:55,259 - #8 ;
+INFO  14:51:55,259 - #41 char
+INFO  14:51:55,259 - #41 x
+INFO  14:51:55,259 - #7 ,
+INFO  14:51:55,259 - #41 y
+INFO  14:51:55,259 - #9 [
+INFO  14:51:55,259 - #10 ]
+INFO  14:51:55,259 - #8 ;
+INFO  14:51:55,260 - #41 bool
+INFO  14:51:55,267 - #41 t
+INFO  14:51:55,267 - #8 ;
+INFO  14:51:55,267 - #3 {
+INFO  14:51:55,267 - #11 void
+INFO  14:51:55,267 - #41 main
+INFO  14:51:55,267 - #12 (
+INFO  14:51:55,267 - #13 )
+INFO  14:51:55,269 - #41 int
+INFO  14:51:55,271 - #41 a
+INFO  14:51:55,271 - #7 ,
+INFO  14:51:55,271 - #41 b
+INFO  14:51:55,271 - #9 [
+INFO  14:51:55,271 - #10 ]
+INFO  14:51:55,271 - #8 ;
+INFO  14:51:55,271 - #41 int
+INFO  14:51:55,271 - #41 x
+INFO  14:51:55,271 - #8 ;
+INFO  14:51:55,271 - #3 {
+INFO  14:51:55,272 - #20 print
+INFO  14:51:55,272 - #12 (
+INFO  14:51:55,272 - #41 char
+INFO  14:51:55,272 - #13 )
+INFO  14:51:55,275 - #8 ;
+INFO  14:51:55,275 - #4 }
+INFO  14:51:55,275 - #4 }
+INFO  14:51:55,278 - Program(
+  ProgramIDENT(
+   Keske
+  ) [ProgramIDENT]
+  ConstVarDeclList_var(
+    ConstVarDeclList_var(
+      ConstVarDeclList_const(
+        ConstVarDeclList_const(
+          NoConstVarDeclList(
+          ) [NoConstVarDeclList]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclList1(
+             pi
+              NumCharBoolConstList_num(
+               3
+              ) [NumCharBoolConstList_num]
+            ) [ConstDeclList1]
+            NoConstDeclList2(
+            ) [NoConstDeclList2]
+          ) [ConstDeclList]
+        ) [ConstVarDeclList_const]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclList1(
+           g
+            NumCharBoolConstList_num(
+             10
+            ) [NumCharBoolConstList_num]
+          ) [ConstDeclList1]
+          NoConstDeclList2(
+          ) [NoConstDeclList2]
+        ) [ConstDeclList]
+      ) [ConstVarDeclList_const]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarItem_ident(
+         x
+        ) [VarItem_ident]
+        VarDeclList1_node(
+          VarItem_array(
+           y
+          ) [VarItem_array]
+          NoVarDeclList1(
+          ) [NoVarDeclList1]
+        ) [VarDeclList1_node]
+      ) [VarDeclList]
+    ) [ConstVarDeclList_var]
+    VarDeclList(
+      Type(
+       bool
+      ) [Type]
+      VarItem_ident(
+       t
+      ) [VarItem_ident]
+      NoVarDeclList1(
+      ) [NoVarDeclList1]
+    ) [VarDeclList]
+  ) [ConstVarDeclList_var]
+  MethodDeclList_node(
+    MethodDecl(
+      MethodSignature(
+        MethodSignature_void(
+         main
+        ) [MethodSignature_void]
+        NoFormParsSquare(
+        ) [NoFormParsSquare]
+      ) [MethodSignature]
+      VarDeclList_md_node(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarItem_ident(
+           a
+          ) [VarItem_ident]
+          VarDeclList1_node(
+            VarItem_array(
+             b
+            ) [VarItem_array]
+            NoVarDeclList1(
+            ) [NoVarDeclList1]
+          ) [VarDeclList1_node]
+        ) [VarDeclList]
+        VarDeclList_md_node(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarItem_ident(
+             x
+            ) [VarItem_ident]
+            NoVarDeclList1(
+            ) [NoVarDeclList1]
+          ) [VarDeclList]
+          NoVarDeclList_md(
+          ) [NoVarDeclList_md]
+        ) [VarDeclList_md_node]
+      ) [VarDeclList_md_node]
+      StatementList_node(
+        Statement_print(
+          ExprTerm_node(
+            Term(
+              NoMulopList(
+                NoFactor_minus(
+                  Factor1_des(
+                    Designator_Ident(
+                     char
+                    ) [Designator_Ident]
+                    NoFactor1Square(
+                    ) [NoFactor1Square]
+                  ) [Factor1_des]
+                ) [NoFactor_minus]
+              ) [NoMulopList]
+            ) [Term]
+            NoAddopTermList(
+            ) [NoAddopTermList]
+          ) [ExprTerm_node]
+          NoNumConstSquare(
+          ) [NoNumConstSquare]
+        ) [Statement_print]
+        NoStatement(
+        ) [NoStatement]
+      ) [StatementList_node]
+    ) [MethodDecl]
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+  ) [MethodDeclList_node]
+) [Program]
+INFO  14:51:55,278 - ===============================================================
+ERROR 14:51:55,285 - Promenljiva je neadekvatna: char na liniji 12
